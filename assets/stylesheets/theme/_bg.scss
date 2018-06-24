@@ -1,0 +1,111 @@
+.background {
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	position: absolute;
+	z-index: 10;
+}
+.wrapper {
+	position: relative;
+	z-index: 20;
+}
+
+.circle {
+	&-1 {
+		@include gradient-circle(790px, 790px);
+		left: -340px;
+    top: -150px;
+		z-index: 10;
+		opacity: .9;
+	}
+	&-2 {
+		@include gradient-circle( 790px, 790px, #391f64 );
+		left:550px;
+		top: -180px;
+		z-index: 10;
+	}
+	&-3 {
+		@include gradient-circle( 790px, 790px, #3b2067);
+		left:200px;
+		top:400px;
+		z-index: 10;
+	}
+	&-4 {
+		position: absolute;
+		width: 696px;
+		height: 696px;
+		border-radius: 50%;
+		background-color: $brand-secondary;
+		top: 1030px;
+    left: -150px;
+    opacity: .3;
+	}
+	&-5 {
+		@include gradient-circle( 690px, 690px, #3d2e80);
+		left:-250px;
+		top:730px;
+		z-index: 10;
+	}
+	&-6 {
+		@include gradient-circle( 760px, 760px, $brand-primary);
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 1150px;
+		opacity: .3;
+	}
+	&-7 {
+		@include gradient-circle( 960px, 960px, $brand-primary);
+		left: -210px;
+		right: 0;
+		top: 2260px;
+		opacity: .2;
+	}
+	&-8 {
+		@include gradient-circle( 900px, 900px, $brand-secondary);
+		left: 340px;
+    right: 0;
+    top: 2700px;
+    opacity: .7;
+	}
+	&-9 {
+		position: absolute;
+    width: 696px;
+    height: 696px;
+    border-radius: 50%;
+    background-color: #3d2e81;
+    top: 3540px;
+    right: -110px;
+    opacity: .3;
+	}
+	&-10 {
+		@include gradient-circle( 900px, 900px, #3a2066);
+		left: -250px;
+    top: 3750px;
+    opacity: .9;
+	}
+}
+
+.triangle {
+	display: block;
+	position: absolute;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgdmlld0JveD0iMCAwIDU3MS44OCA1NjYuMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZGVmcz4NCjxzdHlsZT4uY2xzLTF7ZmlsbDojZjQ3YjMyO308L3N0eWxlPg0KPC9kZWZzPg0KPHRpdGxlPnRyaWFuZ2xlPC90aXRsZT4NCjxnIGRhdGEtbmFtZT0i0KHQu9C+0LkgMiI+DQo8ZyBkYXRhLW5hbWU9ItCh0LvQvtC5IDEiPg0KPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTcxLjg4LDU2Ni4xOCwwLDQyNC4zNSw0MDguNzYsMFoiLz4NCjwvZz4NCjwvZz4NCjwvc3ZnPg==);
+	background-size: cover;
+	&-1 {
+		width: 572px;
+		height: 567px;
+		left: 90px;
+    top: 120px;
+    opacity: .2;
+		z-index: 5;
+	}
+	&-2 {
+		width: 572px;
+		height: 567px;
+		left: 255px;
+		top: 2464px;
+		opacity: .2;
+		z-index: 5;
+	}
+}

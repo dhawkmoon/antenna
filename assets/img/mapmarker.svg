@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 51.07">
+  <defs>
+    <style>
+      .d5052ad5-8fcc-4d2b-8f26-d6e43e3ba577 {
+        fill: #3d2e80;
+      }
+    </style>
+  </defs>
+  <title>mapmarker</title>
+  <g id="1c23690b-0d08-4438-8c51-fc4139f4c59a" data-name="Слой 2">
+    <g id="73bae214-de98-4e30-b599-cfc9ddae38bd" data-name="Слой 1">
+      <path class="d5052ad5-8fcc-4d2b-8f26-d6e43e3ba577" d="M17,0A17,17,0,0,0,0,17c0,9,15.45,32.57,16.11,33.57a1.06,1.06,0,0,0,1.77,0C18.54,49.59,34,26.05,34,17A17,17,0,0,0,17,0Zm0,24.47A7.45,7.45,0,1,1,24.44,17,7.45,7.45,0,0,1,17,24.47Z"/>
+    </g>
+  </g>
+</svg>

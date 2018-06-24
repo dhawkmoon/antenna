@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .ad9937e6-8cd3-40c7-91fd-755ad9bbb8c4 {
+        fill: #f47b2a;
+      }
+    </style>
+  </defs>
+  <title>arrow</title>
+  <g id="0381a2a7-970e-45ef-9c27-3b521fdce47d" data-name="Слой 2">
+    <g id="fb52dfa0-4ee6-4bc2-8d24-8c7ab548e21d" data-name="Слой 1">
+      <path class="ad9937e6-8cd3-40c7-91fd-755ad9bbb8c4" d="M23,0A23,23,0,1,1,0,23,23,23,0,0,1,23,0ZM18,23v6a2.92,2.92,0,0,0,4.6,2.28l3.75-2.55,5-3.4a2.72,2.72,0,0,0,0-4.55l-5-3.4-3.75-2.55A2.92,2.92,0,0,0,18,17Z"/>
+    </g>
+  </g>
+</svg>

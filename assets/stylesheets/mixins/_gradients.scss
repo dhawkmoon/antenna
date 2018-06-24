@@ -1,0 +1,10 @@
+@mixin gradient-circle( $w: 590px, $h: 590px, $c: $brand-secondary )
+{
+	display: block;
+	position: absolute;
+	width: $w;
+	height: $h;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d2e81+0,000000+100&1+0,0+55 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, $c 0%,rgba(27,21,58,0) 55%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$c', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

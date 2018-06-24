@@ -1,0 +1,19 @@
+.btn {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+	-webkit-box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.1);
+	        box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.1);
+	&-primary {
+		border-top-color: #ffffd6 !important;
+		border-bottom: none;
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,196,92,1)),color-stop(47%, rgba(255,196,92,1)),to(rgba(255,124,46,1)));
+		background: linear-gradient(to bottom, rgba(255,196,92,1) 0%,rgba(255,196,92,1) 47%,rgba(255,124,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	}
+
+	&-fullwidth {
+		width: 100%;
+		margin-top: 15px;
+	}
+}

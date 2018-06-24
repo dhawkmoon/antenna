@@ -1,0 +1,43 @@
+//Core file
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+//Fonts
+@import 'fonts/_intro';
+
+//Mixins
+@import 'mixins/_aligns';
+@import 'mixins/_animations';
+@import 'mixins/_basic';
+@import 'mixins/_gradients';
+
+@import 'theme/_glyphs';
+@import 'theme/_forms';
+@import 'theme/_btns';
+@import 'theme/_atoms';
+@import 'theme/_tooltips';
+@import 'theme/_bg';
+
+@import 'theme/_header';
+@import 'theme/_s1';
+@import 'theme/_s2';
+@import 'theme/_s3';
+@import 'theme/_s4';
+@import 'theme/_s5';
+@import 'theme/_s6';
+//basics
+body {
+	overflow-x: hidden;
+}
+section {
+
+	h2 {
+		margin-top: 75px;
+		margin-bottom: 75px;
+		text-align: center;
+		font-weight: 700;
+		@include font-smooth;
+	}
+}
+
+strong {
+	@include reset-font-smooth;
+}

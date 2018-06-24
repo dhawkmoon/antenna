@@ -1,0 +1,70 @@
+.glyph {
+
+	&-logo {
+		&-youdo {
+			@include glyph( url( ../img/logo-youdo.png ) );
+			width: 61px;
+			height: 19px;
+			position: relative;
+    	top: 9px;
+		}
+		&-profiru {
+			@include glyph( url( ../img/logo-profiru.png ) );
+			width: 68px;
+			height: 10px;
+		}
+	}
+}
+
+.icon {
+	&-antenna {
+		@include glyph( url(../img/antenna.svg) );
+		width: 51px;
+		height: 39px;
+	}
+	&-van {
+		@include glyph( url(../img/van.svg) );
+		width: 40px;
+		height: 40px;
+	}
+	&-tv {
+		@include glyph( url(../img/tv.svg) );
+		width: 33px;
+		height: 36px;
+	}
+	&-doc {
+		@include glyph( url(../img/doc.svg) );
+		width: 37px;
+		height: 37px;
+	}
+	&-speed{
+		@include glyph( url(../img/speed.svg) );
+		width: 58px;
+		height: 40px;
+	}
+	&-stick {
+		@include glyph( url(../img/stick.svg) );
+		width: 40px;
+		height: 40px;
+	}
+	&-screen {
+		@include glyph( url(../img/screen.svg) );
+		width: 46px;
+		height: 38px;
+	}
+	&-mapmarker {
+		@include glyph( url(../img/mapmarker.svg) );
+		width: 36px;
+		height: 54px;
+	}
+	&-emmiter {
+		@include glyph( url(../img/emmiter.svg) );
+		width: 25px;
+		height: 42px;
+	}
+	&-zero {
+		@include glyph( url(../img/zero.svg) );
+		width: 52px;
+		height: 65px;
+	}
+}

@@ -1,0 +1,105 @@
+.s3 {
+
+}
+
+.team {
+	&-item {
+		position: relative;
+		height: 400px;
+		padding: 30px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91505d+0,3d2e81+30 */
+		background: rgb(145,80,93); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(145,80,93,1)),color-stop(40%, rgba(61,46,129,1)));
+		background: linear-gradient(to bottom, rgba(145,80,93,1) 0%,rgba(61,46,129,1) 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91505d', endColorstr='#3d2e81',GradientType=0 ); /* IE6-9 */
+		margin-bottom: 90px;
+		&__image {
+			display: block;
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			top: -40px;
+			-webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+			        box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+			img {
+				width: 150px;
+				height: 150px;
+			}
+		}
+		&__title {
+
+			display: block;
+			font-family: $font-family-serif;
+			font-size: 24px;
+			font-weight: 700;
+			color: $brand-primary;
+			line-height: 1.2;
+			margin-top: 100px;
+		}
+		&__subtitle {
+			@include font-smooth;
+			display: block;
+			margin-top: 5px;
+			font-size: 14px;
+			&--ready {
+				color: $brand-light;
+			}
+		}
+		&__list {
+			margin-top: 30px;
+			li {
+				position: relative;
+				padding-left: 10px;
+				margin-bottom: 2px;
+				@include font-smooth;
+				&::before {
+					content: '';
+					position: absolute;
+					left: 0;
+					top: 10px;
+					display: block;
+					width: 4px;
+					height: 4px;
+					background-color: white;
+					border-radius: 50%;
+				}
+			}
+		}
+		&__footer {
+			position: absolute;
+			bottom: 30px;
+			color: $brand-primary;
+			@include font-smooth;
+		}
+
+	}
+	&-form {
+		height: 400px;
+		padding: 30px;
+		background-color: #2e2558;
+		-webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+						box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+		h2 {
+			@include font-smooth;
+			margin-top: 0;
+			margin-bottom: 15px;
+		}
+		p{
+			@include font-smooth;
+			font-size: 18px;
+		}
+		.form-group {
+			margin: 40px auto;
+			width: 270px;
+		}
+		.checkbox+label {
+			display: inline-block;
+		}
+	}
+}
