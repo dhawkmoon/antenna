@@ -1,0 +1,61 @@
+.s7 {
+
+}
+
+.question {
+	&-item {
+
+		background-color: #573240;
+		margin-bottom: 10px;
+
+		&__header {
+			position: relative;
+			height: 50px;
+			font-size: 18px;
+			font-weight: 700;
+			color: $brand-primary;
+			line-height: 1;
+			padding: 15px 25px;
+			cursor: pointer;
+			@include trans;
+			&::after {
+				content: '+';
+				position: absolute;
+				right: 25px;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				font-family: $font-family-serif;
+				color: $brand-primary;
+				font-size: 36px;
+				height: 30px;
+				@include trans;
+			}
+			&:hover {
+				color: $brand-light;
+				&::after {
+					color: $brand-light;
+				}
+			}
+		}
+		&__body {
+			display: none;
+			padding: 0 25px 15px;
+			.btn {
+				padding-top: 9px;
+				margin-top: 15px;
+			}
+		}
+		&--active {
+			background-color: #2a205f;
+			.question-item__header {
+				&::after {
+					content: '-';
+				}
+			}
+			.question-item__body {
+				display: block;
+			}
+		}
+	}
+}

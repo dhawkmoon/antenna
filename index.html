@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/stylesheets/swiper.min.css" />
 	<link rel="stylesheet" href="/assets/stylesheets/core.min.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<title>Антенна в дом</title>
 </head>
 <body>
@@ -94,7 +95,7 @@
 
 											<label for="phone-top" class="sr-only">Ваш телефон</label>
 											<input id="phone-top" name="phone-top" type="text" maxlength="18" class="form-control" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
-											<span class="form-error"></span>
+											<span class="form-error tooltip"></span>
 											<button id="btn_1" class="btn btn-primary">
 													<span>Заказать телевидение прямо сейчас</span>
 											</button>
@@ -388,7 +389,7 @@
 						<div class="form-group">
 							<label for="s3-phone" class="sr-only">Ваш телефон</label>
 							<input id="s3-phone" name="s3-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
-							<span class="form-error"></span>
+							<span class="form-error tooltip"></span>
 
 							<button id="btn_1" class="btn btn-primary btn-fullwidth">
 									<span>Перезвоните мне</span>
@@ -396,8 +397,8 @@
 
 						</div>
 
-						<input class="checkbox" type="checkbox" value="1" id="check-top" checked="checked" />
-						<label for="check-top">Я хочу <span data-toggle="tooltip" data-text="Заказ должен быть сделан [до 15:00]" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
+						<input class="checkbox" type="checkbox" value="1" id="check-team" checked="checked" />
+						<label for="check-team">Я хочу <span data-toggle="tooltip" data-text="Заказ должен быть сделан [до 15:00]" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
 					</form>
 					<!-- END: TEAM FORM -->
 				</div>
@@ -500,7 +501,7 @@
 			</div>
 			<!-- START: MAP -->
 			<div class="map-holder">
-				<img class="img img-responsive" src="/assets/img/map-plug.jpg" alt="map">
+				<div id="map"></div>
 			</div>
 			<!-- END: MAP -->
 			<div class="container">
@@ -513,7 +514,7 @@
 							<div class="form-group">
 								<label for="s5-phone" class="sr-only">Ваш телефон</label>
 								<input id="s5-phone" name="s5-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
-								<span class="form-error"></span>
+								<span class="form-error tooltip"></span>
 
 								<button id="btn_3" class="btn btn-primary">
 										<span>Перезвоните мне</span>
@@ -521,8 +522,8 @@
 
 							</div>
 							<div class="form-group">
-								<input class="checkbox" type="checkbox" value="1" id="check-top" checked="checked" />
-								<label for="check-top">Я хочу <span data-toggle="tooltip" data-text="Заказ должен быть сделан [до 15:00]" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
+								<input class="checkbox" type="checkbox" value="1" id="check-s5" checked="checked" />
+								<label for="check-s5">Я хочу <span data-toggle="tooltip" data-text="Заказ должен быть сделан [до 15:00]" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
 							</div>
 
 						</div>
@@ -634,6 +635,132 @@
 				</div>
 			</div>
 			<!-- END: SECTION HEADING -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2">
+						<!-- START: QUESTIONS WRAPPER -->
+						<div class="questions-wrapper">
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-1" class="question-item question-item--active">
+								<div class="question-item__header">
+									Сколько каналов у нас будет?
+								</div>
+								<div class="question-item__body">
+									На территории Москвы и Московской области работают 20 каналов в цифровом качестве.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-2" class="question-item">
+								<div class="question-item__header">
+									Сколько надо будет платить за телевидение?
+								</div>
+								<div class="question-item__body">
+									Телевидение, подключаемое через нашу организацию, стоит 0 р в месяц.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-3" class="question-item">
+								<div class="question-item__header">
+									Как работает ваша антенна?
+								</div>
+								<div class="question-item__body">
+									 Специалист приезжает на объект и устанавливает антенну либо на фасад здания с помощью кронштейна\мачты либо на крыше здания с помощью мачты, далее мастер калибрует антенну с помощью сертифицированных приборов и добивается максимального сигнала. Далее производится автоматическая настройка на телевизоре и Вы наслаждаетесь 20-30 каналами в цифровом качестве за 0руб\мес.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-4" class="question-item">
+								<div class="question-item__header">
+									На сколько Телевизоров можно сделать разводку антенны?
+								</div>
+								<div class="question-item__body">
+									 Разводку можно делать на неограниченное количество телевизоров
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-5" class="question-item">
+								<div class="question-item__header">
+									Влияют ли погодные условия на качество сигнала?
+								</div>
+								<div class="question-item__body">
+									 Эфирное цифровое телевидение не зависит от Погоды.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-6" class="question-item">
+								<div class="question-item__header">
+									Как выглядит эфирная цифровая антенна?
+								</div>
+								<div class="question-item__body">
+									<img src="/assets/img/goldmaster.jpg" alt="Антенна" class="img img-responsive">
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-7" class="question-item">
+								<div class="question-item__header">
+									От чего зависит цена?
+								</div>
+								<div class="question-item__body">
+									 Цена зависит от способа установки, высоты установки, от количества подключаемых телевизоров, от типа телевизора. Для ускорения процесса оценки Вы можете заполнить форму ниже. Наши специалисты оценят стоимость и свяжутся с Вами:
+									 <div class="text-center">
+									 		<span class="btn btn-primary">
+												Оценить стоимость</span>
+									 </div>
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-8" class="question-item">
+								<div class="question-item__header">
+									Все ли телевизоры нуждаются в приставке?
+								</div>
+								<div class="question-item__body">
+									 Нет, не все телевизоры, в основном все современные телевизоры, купленные с 2015 года, поддерживают стандарт цифрового телевизора.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-9" class="question-item">
+								<div class="question-item__header">
+									Я не знаю какое телевидение я хочу, что посоветуете?
+								</div>
+								<div class="question-item__body">
+									 Это зависит от вашего желания и от ваших возможностей, если хотите не более 20-30 каналов в отличном качестве без абонентской платы с разветвлением на сколько угодно телевизоров то, это эфирное цифровое телевидение.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-10" class="question-item">
+								<div class="question-item__header">
+									Ставите ли вы спутниковые антенны?
+								</div>
+								<div class="question-item__body">
+									 Да, конечно устанавливаем.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+							<!-- START: QUESTIONS-ITEM -->
+							<div id="question-item-11" class="question-item">
+								<div class="question-item__header">
+									Вы занимаетесь только установкой?
+								</div>
+								<div class="question-item__body">
+									Нет, наши специалисты помимо установки занимаются и ремонтом, настройкой и подключением эфирных,спутниковых и кабельных систем телевидения.
+								</div>
+							</div>
+							<!-- END: QUESTIONS-ITEM -->
+						</div>
+						<!-- END: QUESTIONS WRAPPER -->
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- END: SECTION 7 -->
 		<!-- START: SECTION 8 -->
@@ -648,14 +775,14 @@
 			<div class="container">
 				<div class="row text-center">
 					<p class="promo-text">
-						Если у Вас еще остались вопросы, Вы можете оставить нам свой номер телефона,<br /> и мы обязательно перезвоним Вам и ответим на них.
+						Если у Вас еще остались вопросы, Вы можете оставить нам свой номер телефона,<br /> и мы <strong>обязательно перезвоним</strong> Вам и ответим на них.
 					</p>
 					<form action="" class="s5-form" id="s5-form">
 						<div class="form-group form-inline">
 							<div class="form-group">
 								<label for="s5-phone" class="sr-only">Ваш телефон</label>
 								<input id="s5-phone" name="s5-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
-								<span class="form-error"></span>
+								<span class="form-error tooltip"></span>
 
 								<button id="btn_3" class="btn btn-primary">
 										<span>Перезвоните мне</span>
@@ -673,6 +800,29 @@
 			</div>
 		</section>
 		<!-- END: SECTION 8 -->
+		<!-- START: FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2 col-xs-offset-2 col-pl-0 col-pr-0">
+						<span class="footer-copy"><strong>Городская антенная служба</strong><br />© 2012-2016</span>
+					</div>
+					<div class="col-xs-7">
+						<nav class="footer-nav">
+							<ul class="list-unstyled">
+								<li><a href="#top">В начало</a></li>
+								<li><a href="#s2">Преимущества</a></li>
+								<li><a href="#s3">Команда</a></li>
+								<li><a href="#s4">Как мы работаем</a></li>
+								<li><a href="#s6">Отзывы</a></li>
+								<li><a href="$s7">Вопрос-ответ</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END: FOOTER -->
 	</div>
 	<!-- END: WRAPPER -->
 	<!-- START: BG -->
@@ -689,6 +839,9 @@
 		<div class="circle circle-8"></div>
 		<div class="circle circle-9"></div>
 		<div class="circle circle-10"></div>
+		<div class="circle circle-11"></div>
+		<div class="triangle triangle-3"></div>
+		<div class="circle circle-12"></div>
 	</div>
 	<!-- END: BG -->
   <!-- START: Scripts -->
@@ -699,6 +852,7 @@
 	<script type="text/javascript" src="/assets/js/modals.js"></script>
 	<script type="text/javascript" src="/assets/js/tooltips.js"></script>
 	<script type="text/javascript" src="/assets/js/forms.js"></script>
+	<script type="text/javascript" src="/assets/js/map.js"></script>
 	<script type="text/javascript" src="/assets/js/common.js"></script>
 	<!-- END: Scripts -->
 </body>

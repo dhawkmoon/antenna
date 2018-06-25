@@ -1,0 +1,33 @@
+footer {
+	padding-top: 30px;
+	height: 90px;
+	background-color: #2e2558;
+}
+
+.footer {
+	&-copy {
+		position: relative;
+		display: block;
+		left: -15px;
+		color: #7566be;
+		font-size: 14px;
+		line-height: 1.3;
+	}
+	&-nav {
+		position: relative;
+		top: -3px;
+		li {
+			display: inline-block;
+			margin-right: 5px;
+			a {
+				@include font-smooth;
+				font-size: 14px;
+				text-decoration: underline;
+			}
+			&:first-child a {
+
+				color: $brand-primary;
+			}
+		}
+	}
+}

@@ -30,4 +30,12 @@
 		-webkit-transform: rotate(45deg);
 		        transform: rotate(45deg);
 	}
+	&:not(:empty) {
+		opacity: 1;
+	}
+	&.form-error {
+		margin-top: 15px;
+		-webkit-transform: initial;
+		        transform: initial;
+	}
 }

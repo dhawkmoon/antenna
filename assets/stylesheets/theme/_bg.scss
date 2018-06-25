@@ -75,15 +75,28 @@
     height: 696px;
     border-radius: 50%;
     background-color: #3d2e81;
-    top: 3540px;
+    top: 3690px;
     right: -110px;
     opacity: .3;
 	}
 	&-10 {
 		@include gradient-circle( 900px, 900px, #3a2066);
 		left: -250px;
-    top: 3750px;
+    top: 3800px;
     opacity: .9;
+	}
+	&-11 {
+		@include gradient-circle( 900px, 900px, $brand-secondary);
+		left: -250px;
+    right: 0;
+    top: 5050px;
+    opacity: .7;
+	}
+	&-12 {
+		@include gradient-circle( 900px, 900px, $brand-primary);
+		right: -50px;
+    top: 5250px;
+    opacity: .3;
 	}
 }
 
@@ -107,5 +120,12 @@
 		top: 2464px;
 		opacity: .2;
 		z-index: 5;
+	}
+	&-3 {
+		width: 572px;
+		height: 567px;
+		right: 100px;
+		top: 5350px;
+		opacity: .2;
 	}
 }
