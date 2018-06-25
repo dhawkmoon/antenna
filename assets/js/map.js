@@ -229,12 +229,12 @@
  var addPin = function( pin )
  {
 	 if( pin.type == 'receiver' ) {
-		 var src = 'http://localhost:8080/assets/img/mapmarker.svg'
+		 var src = 'assets/img/mapmarker.svg'
 		 var size = [24, 36]
 		 var offset = [-12,-36]
 	 }
 	 else {
-		 var src = 'http://localhost:8080/assets/img/emmiter-alt.svg'
+		 var src = 'assets/img/emmiter-alt.svg'
 		 var size = [18, 32]
 		 var offset = [-9,-32]
 	 }
