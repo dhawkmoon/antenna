@@ -208,3 +208,82 @@
 	-webkit-animation-timing-function: ease-in;
 	        animation-timing-function: ease-in;
 }
+
+@-webkit-keyframes mapMarkerLight {
+		0% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+		}
+		50% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.45);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.45);
+		}
+		100% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+		}
+}
+
+@keyframes mapMarkerLight {
+		0% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+		}
+		50% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.45);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.3);
+		}
+		100% {
+			-webkit-box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+			        box-shadow: 0px 0px 128px 46px rgba(255,196,92,0.15);
+		}
+}
+
+@mixin mapMarkerLight($dur:3s) {
+	-webkit-animation-name: mapMarkerLight;
+	        animation-name: mapMarkerLight;
+	-webkit-animation-duration: $dur;
+	        animation-duration: $dur;
+	//animation-delay: .3s;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes signal {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+	}
+	25% {
+		opacity: 0;
+		-webkit-transform: translateX(180px);
+		        transform: translateX(180px);
+	}
+}
+
+@keyframes signal {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		        transform: translateX(0);
+	}
+	25% {
+		opacity: 0;
+		-webkit-transform: translateX(180px);
+		        transform: translateX(180px);
+	}
+}
+
+@mixin signal($dur:4s) {
+	-webkit-animation-name: signal;
+	        animation-name: signal;
+	-webkit-animation-duration: $dur;
+	        animation-duration: $dur;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}

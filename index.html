@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=1200">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Установка антенн в дома, коттеджи, дачи. Цифровое телевидение нового поколения." />
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="assets/stylesheets/swiper.min.css" />
 	<link rel="stylesheet" href="assets/stylesheets/core.min.css" />
@@ -710,8 +711,8 @@
 								<div class="question-item__body">
 									 Цена зависит от способа установки, высоты установки, от количества подключаемых телевизоров, от типа телевизора. Для ускорения процесса оценки Вы можете заполнить форму ниже. Наши специалисты оценят стоимость и свяжутся с Вами:
 									 <div class="text-center">
-									 		<span class="btn btn-primary">
-												Оценить стоимость</span>
+									 		<!-- <span data-toggle="modal" data-target="#modal-1" class="btn btn-primary">
+												Оценить стоимость</span> -->
 									 </div>
 								</div>
 							</div>
@@ -823,6 +824,40 @@
 			</div>
 		</footer>
 		<!-- END: FOOTER -->
+		<!-- START: MODAL 1 -->
+		<div class="m-modal m-modal--lg" id="modal-1">
+			<div class="m-modal-wrapper">
+				<span class="m-modal__closer" data-toggle="modal" data-target="#modal-1">&times;</span>
+				<div class="m-modal-inner">
+					<h2>
+						Заказать расчет стоимости<br />за установку антенны
+					</h2>
+					<p class="promo-text text-center">Заполните форму ниже, наши специалисты оценят<br /> стоимость работ и перезвонят Вам</p>
+					<!-- START: MODAL 2 FORM -->
+					<form id="modal-form" class="modal-form">
+
+						<span class="form-group">
+							<label for="modal-phone" class="sr-only">Ваш телефон</label>
+							<input class="form-control" data-mask="phone" id="modal-phone" name="modal-phone" type="text" data-type="phone">
+							<span class="form-error"></span>
+						</span>
+						<button id="btn_4" class="btn btn-success">
+							<span>Перезвонить мне</span>
+							<!-- START PRELOADER -->
+							<span class="spinner">
+								<span class="bounce1"></span>
+								<span class="bounce2"></span>
+								<span class="bounce3"></span>
+							</span>
+							<!-- END PRELOADER -->
+						</button>
+
+					</form>
+					<!-- END: MODAL 1 FORM -->
+				</div>
+			</div>
+		</div>
+		<!-- END: MODAL 1 -->
 	</div>
 	<!-- END: WRAPPER -->
 	<!-- START: BG -->
@@ -830,17 +865,17 @@
 		<div class="circle circle-1"></div>
 		<div class="circle circle-2"></div>
 		<div class="circle circle-3"></div>
-		<div class="triangle triangle-1"></div>
+		<div class="triangle triangle-1 rellax" data-rellax-speed="4"></div>
 		<div class="circle circle-5"></div>
-		<div class="circle circle-4"></div>
+		<div class="circle circle-4 rellax" data-rellax-speed="2"></div>
 		<div class="circle circle-6"></div>
-		<div class="triangle triangle-2"></div>
+		<div class="triangle triangle-2 rellax" data-rellax-speed="1"></div>
 		<div class="circle circle-7"></div>
 		<div class="circle circle-8"></div>
-		<div class="circle circle-9"></div>
+		<div class="circle circle-9 rellax" data-rellax-speed="-2"></div>
 		<div class="circle circle-10"></div>
 		<div class="circle circle-11"></div>
-		<div class="triangle triangle-3"></div>
+		<div class="triangle triangle-3 rellax" data-rellax-speed="-1"></div>
 		<div class="circle circle-12"></div>
 	</div>
 	<!-- END: BG -->
@@ -853,6 +888,7 @@
 	<script type="text/javascript" src="assets/js/tooltips.js"></script>
 	<script type="text/javascript" src="assets/js/forms.js"></script>
 	<script type="text/javascript" src="assets/js/map.js"></script>
+	<script type="text/javascript" src="assets/js/rellax.min.js"></script>
 	<script type="text/javascript" src="assets/js/common.js"></script>
 	<!-- END: Scripts -->
 </body>

@@ -19,10 +19,15 @@ $(document).ready( function(){
 } );
 
 /*
- * FAQ toggler
+ * 02 FAQ toggler
  */
 
  $( '.question-item__header' ).on( 'click', function(){
 	 $('.question-item').removeClass('question-item--active');
 	 $(this).parent().addClass('question-item--active');
  } )
+
+ /*
+  * 03
+	*/
+	var rellax = new Rellax( '.rellax' )

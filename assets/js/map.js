@@ -2,7 +2,7 @@
  *
  * Скрипт инициализации яндекс карты с точками, где установленны антенны/вышки.
  *
- * Используется API Yandex Maps 2.1.
+ * Используется API Yande Maps 2.1.
  *
  */
 
@@ -18,6 +18,18 @@
 	*/
 
  var pins = [
+	 {
+		 name: 'Останкинская телебашня',
+		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, телебашня Останкино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 540 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 10 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p></div>',
+		 coords: [55.81961640, 37.61188539],
+		 type: 'emmiter',
+	 },
+	 {
+		 name: 'Москва, Бутово',
+		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, Бутово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 60 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p></div>',
+		 coords: [55.54326023, 37.55367356],
+		 type: 'emmiter',
+	 },
 	 {
 		 name: 'Королев',
 		 text: 'Россия, Московская область',
@@ -205,16 +217,24 @@
 		 type: 'receiver',
 	 },
  ];
-
+ /**
+  *
+  * 02 Add Pin
+  *
+	* @func
+  *
+  * Добавляет метку на карту. Вызываю биндом на MAP
+	*
+  */
  var addPin = function( pin )
  {
 	 if( pin.type == 'receiver' ) {
-		 var src = 'assets/img/mapmarker.svg'
+		 var src = 'http://localhost:8080/assets/img/mapmarker.svg'
 		 var size = [24, 36]
 		 var offset = [-12,-36]
 	 }
 	 else {
-		 var src = 'assets/img/emmiter-alt.svg'
+		 var src = 'http://localhost:8080/assets/img/emmiter-alt.svg'
 		 var size = [18, 32]
 		 var offset = [-9,-32]
 	 }
@@ -276,12 +296,14 @@
  		center: [55.75399400, 37.62209300],
  		zoom: 8,
  	} )
+	//Отключаем зум на скролле
+	MAP.behaviors.disable("scrollZoom");
 
 	for( var i=0; i<pins.length; i++ )
 	{
 		addPin.call( MAP, pins[i] )
 	}
-	//addRegion.call( MAP )
+	// addRegion.call( MAP )
  }
  /*
   *

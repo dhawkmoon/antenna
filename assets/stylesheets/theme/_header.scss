@@ -38,7 +38,7 @@ header {
 	width: 220px;
 	height: 45px;
 	@include glyph( url( ../img/logo.svg ), contain );
-	&:after {
+	&::after {
 		content: '';
 		display: block;
 		position: absolute;
@@ -46,5 +46,18 @@ header {
 		top: 34px;
 		right: -203px;
 		border-top: 1px solid $brand-secondary;
+	}
+	&::before {
+		content: '';
+    display: block;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+    background-color: #bbb2e6;
+    left: 240px;
+    top: 33px;
+    z-index: 1;
+		opacity: 0;
+		@include signal;
 	}
 }

@@ -11,6 +11,8 @@
 
 @import 'theme/_glyphs';
 @import 'theme/_forms';
+@import 'theme/_spinner';
+@import 'theme/_modals';
 @import 'theme/_btns';
 @import 'theme/_atoms';
 @import 'theme/_tooltips';
@@ -44,4 +46,11 @@ section {
 
 strong {
 	@include reset-font-smooth;
+}
+
+a {
+	@include trans;
+	&:hover {
+		color: $brand-light;
+	}
 }

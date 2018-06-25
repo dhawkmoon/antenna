@@ -87,6 +87,7 @@
 			margin: auto;
 			-webkit-box-shadow: 0px 0px 128px 46px rgba(255, 196, 92, 0.15);
 			        box-shadow: 0px 0px 128px 46px rgba(255, 196, 92, 0.15);
+			@include mapMarkerLight;
 			i {
 				display: block;
 				position: absolute;

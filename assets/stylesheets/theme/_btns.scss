@@ -1,4 +1,5 @@
 .btn {
+	outline: none !important;
 	font-size: 18px;
 	font-weight: bold;
 	padding-left: 25px;
@@ -8,8 +9,20 @@
 	&-primary {
 		border-top-color: #ffffd6 !important;
 		border-bottom: none;
-		background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,196,92,1)),color-stop(47%, rgba(255,196,92,1)),to(rgba(255,124,46,1)));
-		background: linear-gradient(to bottom, rgba(255,196,92,1) 0%,rgba(255,196,92,1) 47%,rgba(255,124,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcc659+0,ff7c2e+90 */
+		background: rgb(252,198,89); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(252,198,89,1)),color-stop(90%, rgba(255,124,46,1)));
+		background: linear-gradient(to bottom, rgba(252,198,89,1) 0%,rgba(255,124,46,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc659', endColorstr='#ff7c2e',GradientType=0 ); /* IE6-9 */
+		@include trans;
+		&:hover {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe15d+0,fe902f+90 */
+			background: rgb(255,225,93); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+			background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,225,93,1)),color-stop(90%, rgba(254,144,47,1)));
+			background: linear-gradient(to bottom, rgba(255,225,93,1) 0%,rgba(254,144,47,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe15d', endColorstr='#fe902f',GradientType=0 ); /* IE6-9 */
+			color: $brand-secondary;
+		}
 	}
 
 	&-fullwidth {
