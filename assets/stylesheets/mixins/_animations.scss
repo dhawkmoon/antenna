@@ -287,3 +287,38 @@
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
 }
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: .2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: .2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@mixin flash($dur:.2s) {
+	-webkit-animation-name: flash;
+	        animation-name: flash;
+	-webkit-animation-duration: $dur;
+	        animation-duration: $dur;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
