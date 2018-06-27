@@ -9,12 +9,7 @@
 	margin-top: 5px;
 	color: #735dd7;
 }
-.swiper-slide {
-	position: relative;
-	height: 260px;
-	-webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
-	box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
-}
+
 .testimonials {
 	&-outer {
 		position: relative;
@@ -98,6 +93,12 @@
     background: radial-gradient(ellipse at center, #392a7c 34%, #7f4965 74%, #7f4965 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#392a7c', endColorstr='#7f4965',GradientType=1 );
 		z-index: 5;
+	}
+	.swiper-slide {
+		position: relative;
+		height: 260px;
+		-webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+		box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
 	}
 }
 

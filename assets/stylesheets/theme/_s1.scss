@@ -1,10 +1,22 @@
 .s1 {
 	padding-top: 77px;
+	@media all and (max-width: 768px) {
+		padding-top: 20px;
+	}
 	h1 {
 		margin-top: 0;
 		line-height: .9;
 		small {
 			font-size: 36px;
+		}
+		@media all and (max-width: 768px) {
+			text-align: center;
+			small {
+				font-size: 24px;
+				line-height: 1.3;
+				display: block;
+				margin-top: 15px;
+			}
 		}
 	}
 	.video-holder {
@@ -19,6 +31,10 @@
 		img {
 			position: absolute;
 			z-index: -1;
+		}
+		@media all and (max-width: 768px) {
+			width: auto;
+			height: 160px;
 		}
 	}
 
@@ -44,15 +60,21 @@
 				margin-right: 10px;
 			}
 		}
+		&-mobile {
+			margin-top: 40px;
+		}
 	}
 }
 
 .features {
 	padding-top: 45px;
+	@media all and (max-width: 768px) {
+		padding-top: 5px;
+	}
 }
 
 .feature {
-
+	display: block;
 	&__header {
 		display: block;
 		text-align: center;
@@ -63,6 +85,9 @@
 		i {
 			position: relative;
 			top: 2px;
+		}
+		@media all and (max-width: 768px) {
+			font-size: 76px;
 		}
 	}
 	&__title {
@@ -75,18 +100,23 @@
 			font-size: 16px;
 			color: white;
 		}
+		@media all and (max-width: 768px) {
+			font-size: 16px;
+		}
 	}
 	.tooltip {
+		display: none;
 		opacity: 0;
 		margin-top: 15px;
 		-webkit-transform: none;
 		        transform: none;
+		@media all and (max-width: 768px) {
+			width: calc(100% - 30px);
+		}
 	}
 	.icon-tv {
 		position: relative;
-	}
-	.tooltip {
-		display: none;
+		top:-2px;
 	}
 	&:hover {
 		cursor: help;
@@ -112,4 +142,25 @@
 			@include flash(.3s);
 		}
 	}
+	@media all and (max-width: 768px) {
+		margin-bottom: 35px;
+	}
+}
+@media all and (max-width: 768px) {
+		input[type="text"] {
+			display: inline-block;
+			text-align: center;
+			max-width: 320px;
+		}
+		.btn-primary {
+			width: 100%;
+			max-width: 320px;
+			margin-top: 15px;
+		}
+		.checkbox+label {
+			position: relative;
+			font-size: 12px;
+	    left: 11px;
+	    margin-top: 0;
+		}
 }

@@ -4,18 +4,16 @@
  *
  * Используется API Yande Maps 2.1.
  *
+ *
+ *
+ * 01 Метки
+ *
+ * pin - object
+ * pin.name - имя метки
+ * pin.coords - координаты
+ * pin.type - recevier | emmiter
+ *
  */
-
- /**
-  *
-	* 01 Метки
-	*
-	* pin - object
-	* pin.name - имя метки
-	* pin.coords - координаты
-	* pin.type - recevier | emmiter
-	*
-	*/
 
  var pins = [
 	 {

@@ -9,7 +9,7 @@
 		border-radius: $border-radius-base;
 		-webkit-box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.3);
 		        box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.3);
-		@include trans(.3s);
+		@include trans;
 		-webkit-filter: grayscale(.3);
 		        filter: grayscale(.3);
 		&:hover {
@@ -70,11 +70,50 @@
 	&-tall {
 		.power__inner {
 			height: 395px;
+			@media all and (max-width: 768px) {
+				height: 88vw;
+			}
 		}
 	}
 	&-long {
 		.power__inner {
 			height: 270px;
+			@media all and (max-width: 768px) {
+				height: 88vw;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.power:nth-child(1) {
+		.power__inner {
+			background-image: url( ../img/s2-1-xs.jpg ) !important;
+		}
+	}
+	.power:nth-child(2) {
+		.power__inner {
+			background-image: url( ../img/s2-2-xs.jpg ) !important;
+		}
+	}
+	.power:nth-child(3) {
+		.power__inner {
+			background-image: url( ../img/s2-3-xs.jpg ) !important;
+		}
+	}
+	.power:nth-child(4) {
+		.power__inner {
+			background-image: url( ../img/s2-4-xs.jpg ) !important;
+		}
+	}
+	.power:nth-child(5) {
+		.power__inner {
+			background-image: url( ../img/s2-5-xs.jpg ) !important;
+		}
+	}
+	.power:nth-child(6) {
+		.power__inner {
+			background-image: url( ../img/s2-6-xs.jpg ) !important;
 		}
 	}
 }

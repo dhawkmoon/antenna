@@ -1,10 +1,14 @@
-.col {
-	&-pr-0 {
-		padding-right: 0 !important;
+@media all and (min-width: 768px) {
+
+	.col {
+		&-pr-0 {
+			padding-right: 0 !important;
+		}
+		&-pl-0 {
+			padding-left: 0 !important;
+		}
 	}
-	&-pl-0 {
-		padding-left: 0 !important;
-	}
+
 }
 
 .color {
@@ -24,4 +28,18 @@
 
 .dashed {
 	border-bottom: 2px dashed;
+}
+@media all and (max-width: 768px) {
+	.text-small-xs {
+		font-size: 12px;
+	}
+	.text-center-xs {
+		text-align: center !important;
+	}
+	.text-left-xs {
+		text-align: left !important;
+	}
+	.text-right-xs {
+		text-align: right !important;
+	}
 }

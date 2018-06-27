@@ -21,16 +21,29 @@
 		@include glyph( url(../img/antenna.svg) );
 		width: 51px;
 		height: 39px;
+		@media all and (max-width: 768px) {
+			width: 60px;
+			height: 43px;
+		}
 	}
 	&-van {
 		@include glyph( url(../img/van.svg) );
 		width: 40px;
 		height: 40px;
+		@media all and (max-width: 768px) {
+			width: 55px;
+			height: 55px;
+		}
 	}
 	&-tv {
 		@include glyph( url(../img/tv.svg) );
-		width: 33px;
-		height: 36px;
+		width: 39px;
+		height: 30px;
+		@media all and (max-width: 768px) {
+			width: 50px;
+			height: 38px;
+			margin-top: -7px;
+		}
 	}
 	&-doc {
 		@include glyph( url(../img/doc.svg) );

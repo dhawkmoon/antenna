@@ -15,6 +15,9 @@ header {
 			@include font-smooth;
 			&:not(:first-child) {
 				margin-left: 66px;
+				@media all and (max-width: 768px) {
+					margin-left: 38px;
+				}
 			}
 			&:not(:last-child)::after {
 				content: '';
@@ -24,11 +27,36 @@ header {
 				top: 10px;
 				right: -50px;
 				border-top: 1px solid $brand-secondary;
+				@media all and (max-width: 768px) {
+					width: 20px;
+			    top: 11px;
+			    right: -32px;
+				}
+			}
+			&:last-child {
+				@media all and (max-width: 768px) {
+					margin-left: 0;
+    			margin-top: 10px;
+				}
+			}
+			&:nth-child(2) {
+				&::after {
+					@media all and (max-width: 768px) {
+						display: none;
+					}
+				}
 			}
 		}
 		a {
 			@include font-smooth;
 			color: $brand-primary;
+			@media all and (max-width: 768px) {
+				font-size: 14px;
+			}
+		}
+		@media all and (max-width: 768px) {
+			margin: 0 -15px;
+			text-align: center;
 		}
 	}
 }
@@ -46,6 +74,9 @@ header {
 		top: 34px;
 		right: -203px;
 		border-top: 1px solid $brand-secondary;
+		@media all and (max-width: 768px) {
+			display: none;
+		}
 	}
 	&::before {
 		content: '';
@@ -59,5 +90,11 @@ header {
     z-index: 1;
 		opacity: 0;
 		@include signal;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.logo-wrapper {
+		text-align: center;
 	}
 }

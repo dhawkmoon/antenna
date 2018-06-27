@@ -16,84 +16,113 @@ $(document).ready( function(){
 			 prevEl: '#testimonials-button-prev',
 		 },
 	 })
-} );
 
-/*
- * 02 FAQ toggler
- */
+	 if( $(window).width() < 768 ) {
+		// console.log(1)
+		 var TeamSwiper = new Swiper( '#team', {
+			 slidesPerView: 1,
+			 navigation: {
+				 nextEl: '#team-button-next',
+				 prevEl: '#team-button-prev',
+			 },
+			 wrapperClass: 'team-wrapper',
+			 slideClass: 'team-slide',
+			 freeMode: true,
+		 })
+	 }
 
- $( '.question-item__header' ).on( 'click', function(){
-	 $('.question-item').removeClass('question-item--active');
-	 $(this).parent().addClass('question-item--active');
- } )
-
- /*
-  * 03 Parallax
-	*/
-	var rellax = new Rellax( '.rellax' )
 
 	/*
-	 * 04 Qty field
+	 * 02 FAQ toggler
 	 */
 
-	 $( '.qty-plus' ).on( 'click', function(e){
-		 var $t = $( '#'+$(this).data('target') )
-		 var cv = $t.val()
-		 var min = $t.attr('min')
-		 var max = $t.attr('max')
-
-		 if( cv >= min && cv < max ) {
-			 cv++
-			 $t.val( cv )
-		 }
-	 } )
-
-	 $( '.qty-minus' ).on( 'click', function(e){
-		 var $t = $( '#'+$(this).data('target') )
-		 var cv = $t.val()
-		 var min = $t.attr('min')
-		 var max = $t.attr('max')
-
-		 if( cv > min && cv <= max ) {
-			 cv--
-			 $t.val( cv )
-		 }
+	 $( '.question-item__header' ).on( 'click', function(){
+		 $('.question-item').removeClass('question-item--active');
+		 $(this).parent().addClass('question-item--active');
 	 } )
 
 	 /*
-	  * 05 Files Upload
+	  * 03 Parallax
 		*/
-		$('.form-group--file .file-trigger').on('click', function(e){
-			e.preventDefault()
-			$(this).next().trigger('click')
-		})
-
-		$('.form-group--file input').on('change', function(e){
-			var name = getFileName( $(this).val() )
-			$(this).next().text( name )
-			$(this).next().addClass('not-empty')
-		})
-		//get file name from field attr
-		function getFileName( path ) {
-			return path.split(/(\\|\/)/g).pop()
-		}
+		var rellax = new Rellax( '.rellax' )
 
 		/*
-		 * Scrolls
-		 *
-		 * 06 Anchor Scrolls
-		 *
+		 * 04 Qty field
 		 */
-				$( '[data-toggle="scroll"]' ).on( 'click', function(e){
-					e.preventDefault();
-					$('.mobile-menu').removeClass('active')
-					var target = $(this).attr('href')
-					var to = $( target ).offset().top
 
-					$('html,body').animate({scrollTop: to}, 400)
+		 $( '.qty-plus' ).on( 'click', function(e){
+			 var $t = $( '#'+$(this).data('target') )
+			 var cv = $t.val()
+			 var min = $t.attr('min')
+			 var max = $t.attr('max')
 
-					//$('.mobile-menu').removeClass('mobile-menu--active')
-					//$('.mobile-menu').trigger('mutation')
-					return false
+			 if( cv >= min && cv < max ) {
+				 cv++
+				 $t.val( cv )
+			 }
+		 } )
 
-				} )
+		 $( '.qty-minus' ).on( 'click', function(e){
+			 var $t = $( '#'+$(this).data('target') )
+			 var cv = $t.val()
+			 var min = $t.attr('min')
+			 var max = $t.attr('max')
+
+			 if( cv > min && cv <= max ) {
+				 cv--
+				 $t.val( cv )
+			 }
+		 } )
+
+		 /*
+		  * 05 Files Upload
+			*/
+			$('.form-group--file .file-trigger').on('click', function(e){
+				e.preventDefault()
+				$(this).next().trigger('click')
+			})
+
+			$('.form-group--file input').on('change', function(e){
+				var name = getFileName( $(this).val() )
+				$(this).next().text( name )
+				$(this).next().addClass('not-empty')
+			})
+			//get file name from field attr
+			function getFileName( path ) {
+				return path.split(/(\\|\/)/g).pop()
+			}
+
+			/*
+			 * Scrolls
+			 *
+			 * 06 Anchor Scrolls
+			 *
+			 */
+					$( '[data-toggle="scroll"]' ).on( 'click', function(e){
+						e.preventDefault();
+						$('.mobile-menu').removeClass('active')
+						var target = $(this).attr('href')
+						var to = $( target ).offset().top
+
+						$('html,body').animate({scrollTop: to}, 400)
+
+						//$('.mobile-menu').removeClass('mobile-menu--active')
+						//$('.mobile-menu').trigger('mutation')
+						return false
+
+					} )
+
+			/*
+			 * Masks
+			 *
+			 * 07 Phone Masks
+			 *
+			 */
+			 $("[data-mask=phone]").mask("+7 (999) 999-99-99");
+
+			 //Prevent dummies from 8 in phone number error
+			 $('[data-mask=phone]').on( 'keypress', function(e){
+    $(this).val( $(this).val().replace( /^\+7 \(8/, '+7 (' ) )
+} )
+
+} );
