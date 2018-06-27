@@ -38,3 +38,160 @@ input[type=text] {
 		}
 	}
 }
+
+
+
+//qty field
+
+.qty {
+ 	display: block;
+	height: 50px;
+	background-color: $body-bg;
+	border: none;
+	float: left;
+	overflow: hidden;
+	input {
+		display: block;
+		position: relative;
+		left: 10px;
+		background-color: $body-bg;
+		border: none;
+		outline: none;
+		width: 33%;
+		float: left;
+	}
+	span {
+		display: block;
+		width: 33%;
+		float: left;
+		color: $brand-primary;
+		cursor: pointer;
+	}
+	input,
+	span
+	{
+		font-family: $font-family-serif;
+		text-align: center;
+		font-size: 36px;
+		line-height: 1.45;
+		-webkit-user-select: none;
+		   -moz-user-select: none;
+		    -ms-user-select: none;
+		        user-select: none;
+	}
+}
+
+.form-group--extended {
+	border: 2px solid #3b2d85;
+	height: 235px;
+	padding: 30px;
+	background-image: url(../img/tv-alt.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130px;
+	label {
+		width: 50%;
+    display: block;
+    float: left;
+    text-align: left;
+    font-weight: normal;
+		@include font-smooth;
+	}
+	.qty {
+		width: 50%;
+		margin-bottom: 30px;
+		clear: right;
+	}
+
+	textarea {
+		padding: 15px;
+		outline: none;
+		display: block;
+		width: 50%;
+		resize: none;
+		border-radius: $border-radius-base;
+		color: black;
+		border: none;
+	}
+}
+
+.modal-form {
+	&__footer {
+		margin-top: 30px;
+		.form-group {
+			position: relative;
+			.required {
+				position: absolute;
+		    left: 15px;
+		    top: 27px;
+			}
+			input[type="text"] {
+				width: 230px;
+			}
+		}
+
+	}
+	.btn-primary {
+		margin-left: 15px;
+	}
+	.disclaimer {
+		p:first-child {
+			margin-top: 25px;
+		}
+		p {
+			font-size: 14px;
+			@include font-smooth;
+			text-align: left;
+			font-weight: bold;
+		}
+		.required {
+			font-size: 24px;
+		}
+	}
+}
+
+.required {
+	font-family: $font-family-serif;
+	color: $brand-primary;
+	font-size: 24px;
+	font-size: 36px;
+	line-height: 12px;
+	position: relative;
+	top: 8px;
+	@include font-smooth;
+}
+
+.form-group--file {
+	border: 2px solid $brand-primary;
+	padding: 30px;
+	height: 115px;
+	input[type="file"] {
+		display: none;
+	}
+	.file-trigger {
+		display: block;
+		width: 65px;
+		height: 60px;
+		cursor: pointer;
+		background-size: cover;
+		background-image: url(../img/camera.svg);
+		position: relative;
+		top: -5px;
+	}
+	label {
+		position: absolute;
+		top: 30px;
+		width: 50%;
+		left: 145px;
+		@include font-smooth;
+	}
+	.file-current {
+		white-space: nowrap;
+		width: 50%;
+		position: absolute;
+		top: 60px;
+		left: 145px;
+		font-size: 14px;
+		@include font-smooth;
+	}
+}

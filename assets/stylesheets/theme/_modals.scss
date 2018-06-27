@@ -46,19 +46,15 @@
 
   @include fadeIn(.15s);
   &__closer {
-		font-family: $font-family-serif;
+		font-family: $font-family-base;
     position: absolute;
     display: block;
-    right: 25px;
-    top: 25px;
+    right: 15px;
+    top: 15px;
     cursor: pointer;
-    font-size: 80px;
+    font-size: 60px;
     color: $brand-secondary;
     line-height: .6;
-    opacity: .5;
-    &:hover {
-      opacity: 1;
-    }
   }
   &-overlay {
     position: fixed;
@@ -81,12 +77,10 @@
 	p {
 		line-height: 1.2;
 	}
-	[data-type="phone"] {
-		max-width: 320px;
-    display: inline-block;
-    margin-bottom: 15px;
-	}
 	form {
 		text-align: center;
+	}
+	.promo-text {
+		margin-bottom: 60px;
 	}
 }
