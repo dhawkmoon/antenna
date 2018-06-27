@@ -77,3 +77,23 @@ $(document).ready( function(){
 		function getFileName( path ) {
 			return path.split(/(\\|\/)/g).pop()
 		}
+
+		/*
+		 * Scrolls
+		 *
+		 * 06 Anchor Scrolls
+		 *
+		 */
+				$( '[data-toggle="scroll"]' ).on( 'click', function(e){
+					e.preventDefault();
+					$('.mobile-menu').removeClass('active')
+					var target = $(this).attr('href')
+					var to = $( target ).offset().top
+
+					$('html,body').animate({scrollTop: to}, 400)
+
+					//$('.mobile-menu').removeClass('mobile-menu--active')
+					//$('.mobile-menu').trigger('mutation')
+					return false
+
+				} )
