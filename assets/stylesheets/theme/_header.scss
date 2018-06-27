@@ -90,6 +90,9 @@ header {
     z-index: 1;
 		opacity: 0;
 		@include signal;
+		@media all and (max-width: 768px) {
+			display: none;
+		}
 	}
 }
 

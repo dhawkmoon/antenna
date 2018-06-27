@@ -6068,6 +6068,10 @@ button.close {
   background-image: url(../img/doc.svg);
   width: 37px;
   height: 37px; }
+  @media all and (max-width: 768px) {
+    .icon-doc {
+      width: 53px;
+      height: 54px; } }
 
 .icon-speed {
   display: inline-block;
@@ -6076,6 +6080,10 @@ button.close {
   background-image: url(../img/speed.svg);
   width: 58px;
   height: 40px; }
+  @media all and (max-width: 768px) {
+    .icon-speed {
+      width: 62px;
+      height: 42px; } }
 
 .icon-stick {
   display: inline-block;
@@ -6084,6 +6092,10 @@ button.close {
   background-image: url(../img/stick.svg);
   width: 40px;
   height: 40px; }
+  @media all and (max-width: 768px) {
+    .icon-stick {
+      width: 52px;
+      height: 52px; } }
 
 .icon-screen {
   display: inline-block;
@@ -6092,6 +6104,10 @@ button.close {
   background-image: url(../img/screen.svg);
   width: 46px;
   height: 38px; }
+  @media all and (max-width: 768px) {
+    .icon-screen {
+      width: 55px;
+      height: 45px; } }
 
 .icon-mapmarker {
   display: inline-block;
@@ -6820,6 +6836,9 @@ header {
     animation-timing-function: ease-in;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite; }
+    @media all and (max-width: 768px) {
+      .logo::before {
+        display: none; } }
 
 @media all and (max-width: 768px) {
   .logo-wrapper {
@@ -7544,6 +7563,7 @@ section h2 {
   -moz-osx-font-smoothing: grayscale; }
   @media all and (max-width: 768px) {
     section h2 {
+      font-size: 30px;
       margin-top: 55px;
       margin-bottom: 35px; } }
 

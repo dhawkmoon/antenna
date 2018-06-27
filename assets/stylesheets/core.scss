@@ -42,6 +42,7 @@ section {
 		font-weight: 700;
 		@include font-smooth;
 		@media all and (max-width: 768px) {
+			font-size: 30px;
 			margin-top: 55px;
 			margin-bottom: 35px;
 		}
