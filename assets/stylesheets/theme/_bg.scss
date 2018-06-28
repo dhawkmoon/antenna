@@ -91,12 +91,19 @@
     right: 0;
     top: 5050px;
     opacity: .7;
+		@media all and (max-width: 768px) {
+			top: 4850px;
+		}
 	}
 	&-12 {
 		@include gradient-circle( 900px, 900px, $brand-primary);
 		right: -50px;
     top: 5250px;
     opacity: .3;
+		@media all and (max-width: 768px) {
+			right: 0px;
+    	top: 4893px;
+		}
 	}
 }
 

@@ -7,21 +7,26 @@ $(document).ready( function(){
 	 * 01 Testimonials Slider
 	 *
 	 */
-
-	 var TestimonialsSwiper = new Swiper( '#testimonials', {
-		 slidesPerView: 2,
-		 spaceBetween: 30,
-		 navigation: {
-			 nextEl: '#testimonials-button-next',
-			 prevEl: '#testimonials-button-prev',
-		 },
-		 breakpoints: {
-			 320: {
-				 slidesPerView: 1,
-				 spaceBetween: 0,
+	 if( $(window).width() > 470 ) {
+		 var TestimonialsSwiper = new Swiper( '#testimonials', {
+			 slidesPerView: 2,
+			 spaceBetween: 30,
+			 navigation: {
+				 nextEl: '#testimonials-button-next',
+				 prevEl: '#testimonials-button-prev',
 			 }
-		 }
-	 })
+		 })
+	 }
+	 else {
+		 var TestimonialsSwiper = new Swiper( '#testimonials', {
+			 slidesPerView: 1,
+			 spaceBetween: 0,
+			 navigation: {
+				 nextEl: '#testimonials-button-next',
+				 prevEl: '#testimonials-button-prev',
+			 }
+		 })
+	 }
 	 /*
 	 *
 	 * 01.2 Team Slider on Mobile

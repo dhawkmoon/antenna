@@ -6034,7 +6034,7 @@ button.close {
   @media all and (max-width: 768px) {
     .icon-antenna {
       width: 60px;
-      height: 43px; } }
+      height: 45px; } }
 
 .icon-van {
   display: inline-block;
@@ -6710,6 +6710,9 @@ input[type=text] {
   right: 0;
   top: 5050px;
   opacity: .7; }
+  @media all and (max-width: 768px) {
+    .circle-11 {
+      top: 4850px; } }
 
 .circle-12 {
   display: block;
@@ -6726,6 +6729,10 @@ input[type=text] {
   right: -50px;
   top: 5250px;
   opacity: .3; }
+  @media all and (max-width: 768px) {
+    .circle-12 {
+      right: 0px;
+      top: 4893px; } }
 
 .triangle {
   display: block;
@@ -7038,6 +7045,10 @@ header {
     .power__inner:hover {
       -webkit-filter: grayscale(0);
       filter: grayscale(0); }
+    @media all and (max-width: 768px) {
+      .power__inner {
+        -webkit-filter: none !important;
+        filter: none !important; } }
     .power__inner.has-tooltip {
       overflow: hidden; }
       .power__inner.has-tooltip::before {
@@ -7758,14 +7769,6 @@ footer {
 
 body {
   overflow-x: hidden; }
-  @media all and (max-width: 768px) {
-    body {
-      position: absolute;
-      overflow-x: hidden;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-      width: 100vw;
-      height: 100vh; } }
 
 section h2 {
   margin-top: 75px;
@@ -7803,3 +7806,13 @@ a {
   div#preloader img {
     visibility: hidden;
     display: none; } }
+
+@media all and (max-width: 768px) {
+  body,
+  html {
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100vw;
+    height: 100vh; } }

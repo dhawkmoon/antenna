@@ -16,6 +16,10 @@
 			-webkit-filter: grayscale(0);
 			        filter: grayscale(0);
 		}
+		@media all and (max-width: 768px) {
+			-webkit-filter: none !important;
+			        filter: none !important;
+		}
 		&.has-tooltip {
 			overflow: hidden;
 			&::before {
