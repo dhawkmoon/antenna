@@ -30,12 +30,24 @@
 				font-size: 36px;
 				height: 30px;
 				@include trans;
+				@media all and (max-width: 768px) {
+					margin-top: 19px;
+					line-height: .5;
+					right: 15px;
+					height: 15px;
+				}
 			}
 			&:hover {
 				color: $brand-light;
 				&::after {
 					color: $brand-light;
 				}
+			}
+			@media all and (max-width: 768px) {
+				height: auto;
+				font-size: 16px;
+				line-height: 1.5;
+				padding-right: 40px;
 			}
 		}
 		&__body {
@@ -44,6 +56,9 @@
 			.btn {
 				padding-top: 9px;
 				margin-top: 15px;
+			}
+			@media all and (max-width: 768px) {
+				font-size: 14px;
 			}
 		}
 		&--active {

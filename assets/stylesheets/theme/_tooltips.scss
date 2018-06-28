@@ -38,4 +38,9 @@
 		-webkit-transform: initial;
 		        transform: initial;
 	}
+	@media all and (max-width: 768px) {
+		max-width: 290px !important;
+		font-size: 14px;
+		padding: 15px;
+	}
 }

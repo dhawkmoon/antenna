@@ -32,6 +32,14 @@
 //basics
 body {
 	overflow-x: hidden;
+	@media all and (max-width: 768px) {
+		position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+		width: 100vw;
+		height: 100vh;
+	}
 }
 section {
 

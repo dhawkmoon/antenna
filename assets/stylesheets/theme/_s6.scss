@@ -17,12 +17,27 @@
 	&-container {
 		width: 1060px;
 		margin: 30px auto 0;
+		@media all and (max-width: 768px) {
+			width: auto;
+			.swiper-slide {
+				padding-top: 45px;
+			}
+		}
 	}
 	&-item {
 		overflow: hidden;
 		position: relative;
 		height: 260px;
 		padding: 30px;
+		@media all and (max-width: 768px) {
+			height: 410px;
+			overflow: visible;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91505d+0,3d2e81+30 */
+			background: rgb(145,80,93); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+			background: -webkit-gradient(linear, left top, left bottom, from(rgba(145,80,93,1)),color-stop(40%, rgba(61,46,129,1)));
+			background: linear-gradient(to bottom, rgba(145,80,93,1) 0%,rgba(61,46,129,1) 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91505d', endColorstr='#3d2e81',GradientType=0 ); /* IE6-9 */
+		}
 		&__image {
 			position: relative;
 			display: block;
@@ -43,6 +58,10 @@
 				margin-top: -2px;
 				margin-left: -2px;
 			}
+			@media all and (max-width: 768px) {
+				margin: auto;
+				top: -65px;
+			}
 		}
 		&__title {
 			position: relative;
@@ -55,6 +74,11 @@
 			color: $brand-primary;
 			font-weight: 700;
 			z-index: 10;
+			@media all and (max-width: 768px) {
+				width: 100%;
+		    top: -65px;
+		    text-align: left;
+			}
 		}
 		&__text {
 			position: absolute;
@@ -63,12 +87,21 @@
 			width: calc(100% - 150px);
 			height: 160px;
 			overflow: hidden;
-			text-overflow: ellipsis;
 			top: 30px;
 			right: 0;
 			padding: 0 30px 0 60px;
 			line-height: 1.4;
-
+			@media all and (max-width: 768px) {
+				width: auto;
+				position: relative;
+				padding: 0;
+				top: -55px;
+				float: none;
+				font-size: 14px;
+				overflow-y: scroll;
+				-webkit-overflow-scrolling: touch;
+				height: 170px;
+			}
 		}
 		&__link {
 			position: absolute;
@@ -93,6 +126,9 @@
     background: radial-gradient(ellipse at center, #392a7c 34%, #7f4965 74%, #7f4965 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#392a7c', endColorstr='#7f4965',GradientType=1 );
 		z-index: 5;
+		@media all and (max-width: 768px) {
+			display: none;
+		}
 	}
 	.swiper-slide {
 		position: relative;
@@ -116,9 +152,17 @@
 		@extend %swiper-button;
 		-webkit-transform: rotate(180deg);
 		        transform: rotate(180deg);
+		@media all and (max-width: 768px) {
+			top: 115px;
+			left: 5px;
+		}
 	}
 	&-next {
 		right: -15px;
 		@extend %swiper-button;
+		@media all and (max-width: 768px) {
+			top: 115px;
+			right: 5px;
+		}
 	}
 }

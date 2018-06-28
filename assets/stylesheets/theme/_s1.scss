@@ -123,6 +123,9 @@
 		.tooltip {
 			opacity: 1;
 			display: block;
+			@media all and (max-width: 768px) {
+				display: none;
+			}
 		}
 		.icon-van {
 			background-image: url(../img/van-a.svg);
@@ -162,5 +165,22 @@
 			font-size: 12px;
 	    left: 11px;
 	    margin-top: 0;
+		}
+		.icon-van {
+			background-image: url(../img/van-a.svg);
+		}
+		.icon-antenna {
+			background-image: url(../img/antenna-a.svg);
+		}
+		.icon-tv::after {
+			content: '';
+	    display: block;
+	    width: 4px;
+	    height: 4px;
+	    position: absolute;
+	    background-color: #ee7933;
+	    bottom: 2px;
+	    left: 4px;
+			@include flash(.3s);
 		}
 }

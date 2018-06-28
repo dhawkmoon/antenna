@@ -15,8 +15,18 @@ $(document).ready( function(){
 			 nextEl: '#testimonials-button-next',
 			 prevEl: '#testimonials-button-prev',
 		 },
+		 breakpoints: {
+			 320: {
+				 slidesPerView: 1,
+				 spaceBetween: 0,
+			 }
+		 }
 	 })
-
+	 /*
+	 *
+	 * 01.2 Team Slider on Mobile
+	 *
+	 */
 	 if( $(window).width() < 768 ) {
 		// console.log(1)
 		 var TeamSwiper = new Swiper( '#team', {
@@ -27,7 +37,6 @@ $(document).ready( function(){
 			 },
 			 wrapperClass: 'team-wrapper',
 			 slideClass: 'team-slide',
-			 freeMode: true,
 		 })
 	 }
 
@@ -124,5 +133,6 @@ $(document).ready( function(){
 			 $('[data-mask=phone]').on( 'keypress', function(e){
     $(this).val( $(this).val().replace( /^\+7 \(8/, '+7 (' ) )
 } )
+
 
 } );

@@ -17,18 +17,6 @@
 
  var pins = [
 	 {
-		 name: 'Останкинская телебашня',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, телебашня Останкино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 540 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 10 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p></div>',
-		 coords: [55.81961640, 37.61188539],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Москва, Бутово',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, Бутово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 60 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p></div>',
-		 coords: [55.54326023, 37.55367356],
-		 type: 'emmiter',
-	 },
-	 {
 		 name: 'Королев',
 		 text: 'Россия, Московская область',
 		 coords: [55.92548516, 37.85290088],
@@ -214,6 +202,108 @@
 		 coords:[55.86568743, 37.39271050],
 		 type: 'receiver',
 	 },
+	 //
+	 {
+		 name: 'ул. Лобачевского 98',
+		 text: 'Россия, Москва',
+		 coords:[55.68332057, 37.48129800],
+		 type: 'receiver',
+	 },
+	 {
+		 name: 'Зеленоград',
+		 text: 'Россия, Москва',
+		 coords:[55.98459957, 37.19993250],
+		 type: 'receiver',
+	 },
+	 {
+		 name: 'Реутов',
+		 text: 'Россия, Московская область',
+		 coords:[55.76365021, 37.86672000],
+		 type: 'receiver',
+	 },
+	 {
+		 name: 'Котельники',
+		 text: 'Россия, Московская область',
+		 coords:[55.65690026, 37.86294300],
+		 type: 'receiver',
+	 },
+	 {
+		 name: '1-я Останкинская улица, 13/1',
+		 text: 'Россия, Москва',
+		 coords:[55.82487007, 37.61886600],
+		 type: 'receiver',
+	 },
+	 {
+		 name: 'Широкая улица, 23к1',
+		 text: 'Россия, Москва',
+		 coords:[55.88837657, 37.67276500],
+		 type: 'receiver',
+	 },
+	 {name:"Чистопрудный бульвар, 21",text:"Россия, Москва",coords:[55.76066157, 37.64638150],type:"receiver"},
+	 {name:"Люберцы",text:"Россия, Московская область",coords:[55.67848102, 37.91671600],type:"receiver"},
+	 {name:"Осенняя улица, 14",text:"Россия, Москва",coords:[55.76430307, 37.40573150],type:"receiver"},
+	 {name:"деревня Никольское",text:"Россия, Московская область, городской округ Истра",coords:[55.96675583, 36.90060900],type:"receiver"},
+	 {name:"Загородное шоссе, вл7",text:"Россия, Москва",coords:[55.69343407, 37.61537150],type:"receiver"},
+	 {name:"район Митино",text:"Россия, Москва, Северо-Западный административный округ",coords:[55.84485418, 37.36434200],type:"receiver"},
+	 {name:"Липовый парк",text:"Россия, Москва, посёлок Коммунарка",coords:[55.56762601, 37.48447350],type:"receiver"},
+	 {name:"улица Недорубова",text:"Россия, Москва",coords:[55.70396638, 37.92897350],type:"receiver"},
+	 {name:"Каширское шоссе, 21",text:"Россия, Москва",coords:[55.66241007, 37.63529600],type:"receiver"},
+	 {name:"Алтуфьевское шоссе, 47",text:"Россия, Москва",coords:[55.87071807, 37.58432550],type:"receiver"},
+	 {name:"проезд Загорского, 5",text:"Россия, Москва",coords:[55.72000757, 37.44262550],type:"receiver"},
+	 {name:"улица Бутлерова, 38А",text:"Россия, Москва",coords:[55.64167607, 37.54710850],type:"receiver"},
+	 {name:"Поварская улица, 50/53с1",text:"Россия, Москва",coords:[55.75745007, 37.58734400],type:"receiver"},
+	 {name:"село Вельяминово",text:"Россия, Московская область, городской округ Домодедово",coords:[55.19157977, 37.86843150],type:"receiver"},
+	 {name:"коттеджный посёлок Новогорск-2",text:"Россия, Московская область, городской округ Химки",coords:[55.89901006, 37.36259900],type:"receiver"},
+	 {name:"Ленинский проспект, 72/2",text:"Россия, Москва",coords:[55.68572607, 37.54056850],type:"receiver"},
+	 {name:"поселок Шувое",text:"Россия, Московская область, городской округ Егорьевск",coords:[55.46980818, 39.08476400],type:"receiver"},
+	 {name:"метро Бауманская",text:"Россия, Москва, Арбатско-Покровская линия",coords:[55.77240578, 37.67903550],type:"receiver"},
+	 {name:"метро Алтуфьево",text:"Россия, Москва, Серпуховско-Тимирязевская линия",coords:[55.89819978, 37.58736200],type:"receiver"},
+	 {name:"посёлок Мещерино",text:"Россия, Московская область, Ленинский район",coords:[55.50920462, 37.81029250],type:"receiver"},
+	 {name:"Советская улица, 5",text:"Россия, Московская область, Долгопрудный",coords:[55.93358957, 37.51784150],type:"receiver"},
+	 {name:"улица Марии Ульяновой, 16",text:"Россия, Москва",coords:[55.68311257, 37.52180300],type:"receiver"},
+	 {name:"Амурская улица, 13",text:"Россия, Амурская область, Благовещенск",coords:[50.25948957, 127.57411950],type:"receiver"},
+	 {name:"Бирюлёвская улица",text:"Россия, Москва",coords:[55.59143883, 37.66712350],type:"receiver"},
+	 {name:"городское поселение Яхрома",text:"Россия, Московская область, Дмитровский городской округ",coords:[56.26939894, 37.33424350],type:"receiver"},
+	 {name:"Ленинградское шоссе, 21",text:"Россия, Москва",coords:[55.82311507, 37.49373950],type:"receiver"},
+	 {name:"Погонный проезд",text:"Россия, Москва",coords:[55.81849053, 37.71060200],type:"receiver"},
+	 {name:"деревня Верхнее Велино",text:"Россия, Московская область, Раменский район",coords:[55.44315378, 38.21417950],type:"receiver"},
+	 {name:"Краснопрудная улица, 30",text:"Россия, Свердловская область, Екатеринбург, Чкаловский район, микрорайон Нижнеисетский",coords:[56.75577807, 60.67591550],type:"receiver"},
+	 {name:"проспект Маршала Жукова, 32",text:"Россия, Москва",coords:[55.77661357, 37.47402150],type:"receiver"},
+	 {name:"деревня Ивачково",text:"Россия, Московская область, городской округ Чехов",coords:[55.22798964, 37.47642000],type:"receiver"},
+	 {name:"Мичуринский проспект",text:"Россия, Москва",coords:[55.69229289, 37.49091000],type:"receiver"},
+	 {name:"деревня Романово",text:"Россия, Московская область, Наро-Фоминский городской округ",coords:[55.23728381, 36.85354200],type:"receiver"},
+	 {name:"Южнобутовская улица, 33",text:"Россия, Москва",coords:[55.53734207, 37.53773900],type:"receiver"},
+	 {name:"улица Юных Ленинцев, 69",text:"Россия, Москва",coords:[55.70027857, 37.76683650],type:"receiver"},
+	 {name:"улица Веры Волошиной, 46",text:"Россия, Московская область, Мытищи",coords:[55.89580757, 37.71307250],type:"receiver"},
+	 {name:"микрорайон Барыбино",text:"Россия, Московская область, Домодедово",coords:[55.26588127, 37.90173200],type:"receiver"},
+	 {name:"Шелепихинское шоссе, 19",text:"Россия, Москва",coords:[55.75960807, 37.52147950],type:"receiver"},
+	 {name:"Нижегородская улица, 86кБ",text:"Россия, Москва",coords:[55.73071457, 37.71777950],type:"receiver"},
+	 {name:"Старая Басманная улица",text:"Россия, Москва",coords:[55.76687060, 37.66304550],type:"receiver"},
+	 {name:"Посланников переулок, 9с1",text:"Россия, Москва",coords:[55.77036007, 37.68325700],type:"receiver"},
+	 {name:"Балабаново",text:"Россия, Калужская область, Боровский район",coords:[55.20355478, 36.63594300],type:"receiver"},
+	 {name:"Рублёво-Успенское шоссе, 30-й километр",text:"Россия, Московская область, Рублёво-Успенское шоссе",coords:[55.71837751, 36.94681350],type:"receiver"},
+	 {name:"деревня Вялки",text:"Россия, Московская область, Раменский район, сельское поселение Вялковское",coords:[55.65802487, 38.08200150],type:"receiver"},
+	 {name:"деревня Сатино-Татарское",text:"Россия, Москва, поселение Щаповское",coords:[55.36283824, 37.38929700],type:"receiver"},
+	 {name:"село Михайловское",text:"Россия, Московская область, городской округ Домодедово",coords:[55.14137418, 37.80007850],type:"receiver"},
+	 {name:"Электросталь",text:"Россия, Московская область",coords:[55.78778349, 38.45190500],type:"receiver"},
+	 {name:"Шарикоподшипниковская улица, 32",text:"Россия, Москва",coords:[55.71639207, 37.67621450],type:"receiver"},
+	 {name:"Апрелевка",text:"Россия, Московская область, Наро-Фоминский городской округ",coords:[55.54883085, 37.05877550],type:"receiver"},
+	 {name:"Варваринская улица, 33с1",text:"Россия, Москва",coords:[55.66967107, 37.42325750],type:"receiver"},
+	 {name:"улица Хамовнический Вал, 4",text:"Россия, Москва",coords:[55.71675207, 37.57678000],type:"receiver"},
+	 {name:"Кропоткинский переулок, 4с1",text:"Россия, Москва",coords:[55.73758307, 37.59442250],type:"receiver"},
+	 {
+		 name: 'Останкинская телебашня',
+		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, телебашня Останкино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 540 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 10 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p></div>',
+		 coords: [55.81961640, 37.61188539],
+		 type: 'emmiter',
+	 },
+	 {
+		 name: 'Москва, Бутово',
+		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, Бутово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 60 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p></div>',
+		 coords: [55.54326023, 37.55367356],
+		 type: 'emmiter',
+	 },
+
  ];
  /**
   *
@@ -228,13 +318,13 @@
  {
 	 if( pin.type == 'receiver' ) {
 		 var src = 'assets/img/mapmarker.svg'
-		 var size = [24, 36]
-		 var offset = [-12,-36]
+		 var size = [12, 18]
+		 var offset = [-6,-18]
 	 }
 	 else {
-		 var src = 'assets/img/emmiter-alt.svg'
-		 var size = [18, 32]
-		 var offset = [-9,-32]
+		 var src = 'assets/img/emmiter.svg'
+		 var size = [27, 50]
+		 var offset = [-14,-50]
 	 }
 	 var placemark = new ymaps.Placemark( pin.coords, {
 		 hintContent: pin.name,
@@ -300,6 +390,16 @@
 		this.geoObjects.add( polygon )
 	}
 
+	var getZoom = function()
+	{
+		if( $(window).width() <= 768 ) {
+	 		return 7
+	 	}
+	 	else {
+	 		return 8
+	 	}
+	}
+
  /**
   *
   * Функции
@@ -313,9 +413,10 @@
 
  var mapInit = function()
  {
+	var zoom = getZoom();
  	MAP = new ymaps.Map( 'map', {
  		center: [55.75399400, 37.62209300],
- 		zoom: 8,
+ 		zoom: zoom,
  	} )
 	//Отключаем зум на скролле
 	MAP.behaviors.disable("scrollZoom");

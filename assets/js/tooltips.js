@@ -28,10 +28,18 @@ jQuery(document).ready( function($){
 		$tooltip.animate( {opacity: 1}, 200 )
 
 		$(this).on( 'mouseleave', {tooltip: $tooltip}, function(e){
+			//
 			e.data.tooltip.animate( {opacity: 0}, 200, function(){
 				$(this).remove()
 			} )
-
+			//
+		} )
+		$(this).on( 'click', {tooltip: $tooltip}, function(e){
+			//
+			e.data.tooltip.animate( {opacity: 0}, 200, function(){
+				$(this).remove()
+			} )
+			//
 		} )
 	} )
 
