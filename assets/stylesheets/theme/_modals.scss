@@ -20,6 +20,10 @@
 	&--lg {
 		.m-modal-wrapper {
 			width: 850px;
+			@media all and (max-width: 768px) {
+				width: 100%;
+				max-width: 320px;
+			}
 		}
 	}
   &-wrapper {
@@ -73,6 +77,9 @@
     text-align: center;
     font-size: 36px;
     margin: 0 0 15px;
+		@media all and (max-width: 768px) {
+			font-size: 20px;
+		}
   }
 	p {
 		line-height: 1.2;
@@ -82,5 +89,9 @@
 	}
 	.promo-text {
 		margin-bottom: 60px;
+		@media all and (max-width: 768px) {
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
 	}
 }

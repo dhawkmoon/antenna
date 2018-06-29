@@ -59,6 +59,9 @@ input[type=text] {
 		outline: none;
 		width: 33%;
 		float: left;
+		@media all and (max-width: 768px) {
+			left: 0;
+		}
 	}
 	span {
 		display: block;
@@ -96,6 +99,9 @@ input[type=text] {
     text-align: left;
     font-weight: normal;
 		@include font-smooth;
+		@media all and (max-width: 768px) {
+			font-size: 12px;
+		}
 	}
 	.qty {
 		width: 50%;
@@ -127,12 +133,19 @@ input[type=text] {
 			}
 			input[type="text"] {
 				width: 230px;
+				@media all and (max-width: 768px) {
+					width: 100%;
+				}
 			}
 		}
 
 	}
 	.btn-primary {
 		margin-left: 15px;
+		@media all and (max-width: 768px) {
+			margin-left: 0;
+			font-size: 14px;
+		}
 	}
 	.disclaimer {
 		p:first-child {
@@ -153,12 +166,14 @@ input[type=text] {
 .required {
 	font-family: $font-family-serif;
 	color: $brand-primary;
-	font-size: 24px;
 	font-size: 36px;
 	line-height: 12px;
 	position: relative;
 	top: 8px;
 	@include font-smooth;
+	@media all and (max-width: 768px) {
+		font-size: 24px;
+	}
 }
 
 .form-group--file {
@@ -184,6 +199,11 @@ input[type=text] {
 		width: 50%;
 		left: 145px;
 		@include font-smooth;
+		@media all and (max-width: 768px) {
+			font-size: 14px;
+    	line-height: 1;
+			left: 112px;
+		}
 	}
 	.file-current {
 		white-space: nowrap;
@@ -193,5 +213,36 @@ input[type=text] {
 		left: 145px;
 		font-size: 14px;
 		@include font-smooth;
+		@media all and (max-width: 768px) {
+			top: 65px;
+    	left: 116px;
+			overflow: hidden;
+		}
+	}
+}
+
+.form-error {
+	cursor: pointer;
+	&::after {
+		content: '×';
+		position:absolute;
+		right: 5px;
+		top: 0px;
+		color: $body-bg;
+		cursor: pointer;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	label[for="modal-form-models"] {
+		width: 100%;
+	}
+	.qty {
+		margin-bottom: 10px !important;
+	}
+	#modal-form-models {
+		clear: both;
+		width: 100%;
 	}
 }

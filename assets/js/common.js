@@ -65,6 +65,7 @@ $(document).ready( function(){
 		 */
 
 		 $( '.qty-plus' ).on( 'click', function(e){
+			 //console.log('ok')
 			 var $t = $( '#'+$(this).data('target') )
 			 var cv = $t.val()
 			 var min = $t.attr('min')

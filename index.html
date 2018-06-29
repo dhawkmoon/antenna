@@ -58,25 +58,26 @@
 							</div>
 
 									<div class="text-center">
-										<form action="" class="s1-form form-inline" id="s1-form-mobile">
+										<!-- START: S1-FORM MOBILE-->
+										<form action="/" class="s1-form form-inline" id="s1-form-mobile">
 											<div class="form-group">
 
-													<label for="phone-top" class="sr-only">Ваш телефон</label>
-													<input id="phone-top-mobile" name="phone-top-mobile" type="text" maxlength="18" class="form-control" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+													<label for="s1-form-mobile-phone" class="sr-only">Ваш телефон</label>
+													<input id="s1-form-mobile-phone" name="s1-form-mobile-phone" type="text" maxlength="18" class="form-control" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 													<span class="form-error tooltip"></span>
-													<button id="btn_2" class="btn btn-primary">
+													<button id="s1-form-mobile-btn" class="btn btn-primary">
 															<span>Заказать телевидение</span>
 													</button>
 
 											</div>
 
 											<div class="form-group">
-												<input class="checkbox" type="checkbox" value="1" id="check-top-mobile"  />
-												<label for="check-top-mobile" class="text-small-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
+												<input name="s1-form-mobile-check" class="checkbox" type="checkbox" value="Да" id="s1-form-mobile-check"  />
+												<label for="s1-form-mobile-check" class="text-small-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
 											</div>
 
 										</form>
-
+										<!-- END: S1-FORM MOBILE-->
 									</div>
 						</div>
 						<div class="row features">
@@ -143,18 +144,18 @@
 								<form action="" class="s1-form form-inline" id="s1-form">
 									<div class="form-group">
 
-											<label for="phone-top" class="sr-only">Ваш телефон</label>
-											<input id="phone-top" name="phone-top" type="text" maxlength="18" class="form-control" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+											<label for="s1-form-phone" class="sr-only">Ваш телефон</label>
+											<input id="s1-form-phone" name="s1-form-phone" type="text" maxlength="18" class="form-control" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 											<span class="form-error tooltip"></span>
-											<button id="btn_1" class="btn btn-primary">
+											<button id="s1-form-btn" class="btn btn-primary">
 													<span>Заказать телевидение прямо сейчас</span>
 											</button>
 
 									</div>
 
 									<div class="form-group">
-										<input class="checkbox" type="checkbox" value="1" id="check-top"  />
-										<label for="check-top">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
+										<input class="checkbox" type="checkbox" value="Да" id="s1-form-check"  />
+										<label for="s1-form-check">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
 									</div>
 
 								</form>
@@ -293,8 +294,8 @@
 							Александр Михайлович
 						</span>
 
-						<span class="team-item__subtitle team-item__subtitle--ready">
-							Готов к выезду
+						<span class="team-item__subtitle team-item__subtitle--busy">
+							На выезде
 						</span>
 
 						<ul class="list-unstyled team-item__list">
@@ -439,18 +440,18 @@
 						<h2>Заказать выезд мастера</h2>
 						<p class="text-center">Укажите свой номер телефона,<br /> и мы обязательно с Вами свяжемся</p>
 						<div class="form-group">
-							<label for="s3-phone" class="sr-only">Ваш телефон</label>
-							<input id="s3-phone" name="s3-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+							<label for="s3-form-phone" class="sr-only">Ваш телефон</label>
+							<input id="s3-form-phone" name="s3-form-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 							<span class="form-error tooltip"></span>
 
-							<button id="btn_1" class="btn btn-primary btn-fullwidth">
+							<button id="s3-form-btn" class="btn btn-primary btn-fullwidth">
 									<span>Перезвоните мне</span>
 							</button>
 
 						</div>
 
-						<input class="checkbox" type="checkbox" value="1" id="check-team"  />
-						<label for="check-team">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
+						<input class="checkbox" type="checkbox" value="Да" id="s3-form-check" name="s3-form-check" />
+						<label for="s3-form-check">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание на 5 лет</span></label>
 					</form>
 					<!-- END: TEAM FORM -->
 				</div>
@@ -462,22 +463,22 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<!-- START: TEAM FORM -->
-					<form class="form team-form text-center mb-0" id="s3-form-m">
+					<form class="form team-form text-center mb-0" id="s3-form-mobile">
 						<h2>Заказать выезд мастера</h2>
 						<p class="text-center">Укажите свой номер телефона,<br /> и мы обязательно с Вами свяжемся</p>
 						<div class="form-group">
-							<label for="s3-phone-m" class="sr-only">Ваш телефон</label>
-							<input id="s3-phone-m" name="s3-phone-m" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+							<label for="s3-form-mobile-phone" class="sr-only">Ваш телефон</label>
+							<input id="s3-form-mobile-phone" name="s3-form-mobile-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 							<span class="form-error tooltip"></span>
 
-							<button id="btn_4" class="btn btn-primary btn-fullwidth">
+							<button id="s3-form-mobile-btn" class="btn btn-primary btn-fullwidth">
 									<span>Перезвоните мне</span>
 							</button>
 
 						</div>
 
-						<input class="checkbox" type="checkbox" value="1" id="check-team-m"  />
-						<label for="check-team-m">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
+						<input class="checkbox" type="checkbox" value="Да" id="s3-form-mobile-check" name="s3-form-mobile-check"  />
+						<label for="s3-form-mobile-check">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
 					</form>
 					<!-- END: TEAM FORM -->
 				</div>
@@ -595,18 +596,18 @@
 					<form action="" class="s5-form" id="s5-form">
 						<div class="form-group form-inline">
 							<div class="form-group">
-								<label for="s5-phone" class="sr-only">Ваш телефон</label>
-								<input id="s5-phone" name="s5-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+								<label for="s5-form-phone" class="sr-only">Ваш телефон</label>
+								<input id="s5-form-phone" name="s5-form-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 								<span class="form-error tooltip"></span>
 
-								<button id="btn_3" class="btn btn-primary">
+								<button id="s5-form-btn" class="btn btn-primary">
 										<span>Перезвоните мне</span>
 								</button>
 
 							</div>
 							<div class="form-group">
-								<input class="checkbox" type="checkbox" value="1" id="check-s5"  />
-								<label for="check-s5" class="text-left-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
+								<input class="checkbox" type="checkbox" value="Да" name="s5-form-check" id="s5-form-check"  />
+								<label for="s5-form-check" class="text-left-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
 							</div>
 
 						</div>
@@ -643,7 +644,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-1.jpeg)"></span> <span class="testimonials-item__title">Иван</span>
-								<div class="testimonials-item__text">Мастер отлично сделал свою работу, вовремя, быстро! При необходимости буду дальше к нему обращаться!</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t3149646">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Мастер отлично сделал свою работу, вовремя, быстро! При необходимости буду дальше к нему обращаться!</div> <a id="testimonials-item__link--1" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t3149646">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -651,7 +652,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-2.jpeg)"></span> <span class="testimonials-item__title">Владимир</span>
-								<div class="testimonials-item__text">Сделали быстро и в 2 раза дешевле Ростелекома. Мастер вежливый и очень грамотный.</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t3089420">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Сделали быстро и в 2 раза дешевле Ростелекома. Мастер вежливый и очень грамотный.</div> <a  id="testimonials-item__link--2" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t3089420">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -659,7 +660,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-3.jpeg)"></span> <span class="testimonials-item__title">Ирина</span>
-								<div class="testimonials-item__text">Спасибо. Направили человека. Всп сделал быстро, аккуратно!</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t2947359">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Спасибо. Направили человека. Всп сделал быстро, аккуратно!</div> <a  id="testimonials-item__link--3" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t2947359">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -667,7 +668,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-4.jpeg)"></span> <span class="testimonials-item__title">Елена</span>
-								<div class="testimonials-item__text">Все отлично выполнено, качественно и в оговорённые сроки.</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/u3101795">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Все отлично выполнено, качественно и в оговорённые сроки.</div> <a  id="testimonials-item__link--4" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/u3101795">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -675,8 +676,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-5.jpeg)"></span> <span class="testimonials-item__title">Ольга</span>
-								<div class="testimonials-item__text">работу выполнил качественно и быстро, очень серьезно и ответственно относиться к выполнению задания, сделал работы больше, чем договаривались, антены обоих телевизоров работают отлично, СПАСИБО</div> <a class="testimonials-item__link" rel="nofollow
-								" href="https://youdo.com/t2135734">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">работу выполнил качественно и быстро, очень серьезно и ответственно относиться к выполнению задания, сделал работы больше, чем договаривались, антены обоих телевизоров работают отлично, СПАСИБО</div> <a  id="testimonials-item__link--5" class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t2135734">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -684,7 +684,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-6.jpeg)"></span> <span class="testimonials-item__title">Дмитрий </span>
-								<div class="testimonials-item__text">Вежливый исполнительно, настроил, модернизировал антенну, все работает, спасибо, Ваагн!</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t1888544">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Вежливый исполнительно, настроил, модернизировал антенну, все работает, спасибо, Ваагн!</div> <a  id="testimonials-item__link--6" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t1888544">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -693,7 +693,7 @@
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-7.jpeg)"></span> <span class="testimonials-item__title">Дмитий Е</span>
 								<div class="testimonials-item__text">Все как договаривались. Оказалось, что одна из антенных розеток была не рабочей - отремонтировали. Всем доволен, исполнитель был пунктуален, вежлив и поделился важной информацией о цифровых телеканалах. Рекомендую! +1100 - ремонт розетки и материалы.</div>
-								<a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/u1974566">Читать оригинал &rarr;</a> </div>
+								<a id="testimonials-item__link--7" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/u1974566">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -701,7 +701,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-8.jpeg)"></span> <span class="testimonials-item__title">Ольга</span>
-								<div class="testimonials-item__text">Все здорово, спустя много лет мы теперь с хорошо работающим телевизором!</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t1810449">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">Все здорово, спустя много лет мы теперь с хорошо работающим телевизором!</div> <a id="testimonials-item__link--8" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t1810449">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -710,7 +710,7 @@
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Анна</span>
 								<div class="testimonials-item__text">Второй раз обращаюсь за помощью к этому мастеру . И второй раз ОЧЕНЬ довольна его работой . Проводил у нас в квартире телевизионную антенну . Свою работу выполнил на отлично . И даже помог настроить и наладить каналы телевидения , что до него очень
-									коряво делали 2 других специалиста . Мастер аккуратный , грамотный , вежливый . Рекомендую .</div> <a class="testimonials-item__link" rel="nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1527011160/">Читать оригинал &rarr;</a>		</div>
+									коряво делали 2 других специалиста . Мастер аккуратный , грамотный , вежливый . Рекомендую .</div> <a id="testimonials-item__link--9" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://profi.ru/profile/ArutyunyanVG2/order/1527011160/">Читать оригинал &rarr;</a>		</div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -718,8 +718,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Татьяна</span>
-								<div class="testimonials-item__text">«Результат был достигнут,цена адекватная,мастера Михаила ,которого прислал Арутюнян Ваагн Гарегинович мы с удовольствием порекомендуем всем,самого Арутюняна посоветовать не можем так как его не видели.»</div> <a class="testimonials-item__link" rel="
-								 nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1520084722/">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">«Результат был достигнут,цена адекватная,мастера Михаила ,которого прислал Арутюнян Ваагн Гарегинович мы с удовольствием порекомендуем всем,самого Арутюняна посоветовать не можем так как его не видели.»</div> <a id="testimonials-item__link--10" class="testimonials-item__link" rel="nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1520084722/">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -727,8 +726,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Елена</span>
-								<div class="testimonials-item__text">«Довольна очень мастером. За одну минуту с кабелем разобрался, настолько все качественно! Шикарно настроил телевизор. Большая благодарность ему. И взял по-божески, считаю. Обязательно рекомендую всем!»</div> <a class="testimonials-item__link" rel="
-								 nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1519916931/">Читать оригинал &rarr;</a> </div>
+								<div class="testimonials-item__text">«Довольна очень мастером. За одну минуту с кабелем разобрался, настолько все качественно! Шикарно настроил телевизор. Большая благодарность ему. И взял по-божески, считаю. Обязательно рекомендую всем!»</div> <a id="testimonials-item__link--11" class="testimonials-item__link" rel="nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1519916931/">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -737,8 +735,7 @@
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Марина</span>
 								<div class="testimonials-item__text">Мастер отличный, дело свое знает, обратившись к нему не пожалеете. Приехал вовремя, все пожелания учтены, работу сделал чисто, все за собой убрал, даже мебель всю поставил на место))) разводка антенная очень старая, мы боялись, что нужно будет новую
-									прокладывать, штробя стены и вскрывая плинтуса, но он смог устранить неисправность не испортив весь ремонт. Пять из пяти. Спасибо, что есть такие специалисты. Никогда так хорошо телевизоры еще не показывали.</div> <a class="testimonials-item__link
-								 " rel="nofollow" href="#">Читать оригинал &rarr;</a> </div>
+									прокладывать, штробя стены и вскрывая плинтуса, но он смог устранить неисправность не испортив весь ремонт. Пять из пяти. Спасибо, что есть такие специалисты. Никогда так хорошо телевизоры еще не показывали.</div> <a id="testimonials-item__link--12" class="testimonials-item__link" rel="nofollow" target="_blank" href="#">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -746,7 +743,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Виктория</span>
-								<div class="testimonials-item__text">«Ваагн Гарегинович выполнил работу по разветвлению антенны на два телевизора. Всё настроил, положительное впечатление, спасибо, всё работает без проблем!»</div> <a class="testimonials-item__link" rel="nofollow" href="https://profi.ru/profile/ArutyunyanVG2/order/1496774930/
+								<div class="testimonials-item__text">«Ваагн Гарегинович выполнил работу по разветвлению антенны на два телевизора. Всё настроил, положительное впечатление, спасибо, всё работает без проблем!»</div> <a id="testimonials-item__link--13" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://profi.ru/profile/ArutyunyanVG2/order/1496774930/
 								">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
@@ -756,7 +753,7 @@
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Раиса</span>
 								<div class="testimonials-item__text">Сказать огромное спасибо-----это просто ничего не сказать.!!! Это специалист высшего класса!!! Молодой,вежливый,понимающий,знающий свое дело на отлично ! Он сделал всю обозначенную работу,помог по другим вопросам за умеренную плату. Рекомендую всем
-									! Ваагн-----лучший мастер,который есть в г. Москве!Спасибо огромное!</div> <a class="testimonials-item__link" rel="nofollow" href="https://youdo.com/t2575140">Читать оригинал &rarr;</a> </div>
+									! Ваагн-----лучший мастер,который есть в г. Москве!Спасибо огромное!</div> <a id="testimonials-item__link--14" class="testimonials-item__link" rel="nofollow" target="_blank" href="https://youdo.com/t2575140">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
 						<!-- START: TESTIMONIALS ITEM -->
@@ -764,7 +761,7 @@
 							<div class="testimonials-item">
 								<div class="testimonials-bg"></div>
 								<span class="testimonials-item__image" style="background-image: url(assets/img/t-n.jpeg)"></span> <span class="testimonials-item__title">Мария</span>
-								<div class="testimonials-item__text">Мастер приехал вовремя, как договаривались. Сделал все быстро, профессионально. Исправил ошибки предыдущего мастера, все наладил и отрегулировал. Большое спасибо за умение, профессионализм и скорость.</div> <a class="testimonials-item__link" rel="
+								<div class="testimonials-item__text">Мастер приехал вовремя, как договаривались. Сделал все быстро, профессионально. Исправил ошибки предыдущего мастера, все наладил и отрегулировал. Большое спасибо за умение, профессионализм и скорость.</div> <a id="testimonials-item__link--15" class="testimonials-item__link" rel="
 								 nofollow" href="https://youdo.com/t2571262">Читать оригинал &rarr;</a> </div>
 						</div>
 						<!-- END: TESTIMONIALS ITEM -->
@@ -927,21 +924,21 @@
 					<p class="promo-text">
 						Если у Вас еще остались вопросы, Вы можете оставить нам свой номер телефона,<br /> и мы <strong>обязательно перезвоним</strong> Вам и ответим на них.
 					</p>
-					<form action="" class="s5-form" id="s5-form">
+					<form action="" class="s5-form" id="s8-form">
 						<div class="form-group form-inline">
 							<div class="form-group">
-								<label for="s5-phone" class="sr-only">Ваш телефон</label>
-								<input id="s5-phone" name="s5-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+								<label for="s8-form-phone" class="sr-only">Ваш телефон</label>
+								<input id="s8-form-phone" name="s8-form-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 								<span class="form-error tooltip"></span>
 
-								<button id="btn_3" class="btn btn-primary">
+								<button id="s8-form-btn" class="btn btn-primary">
 										<span>Перезвоните мне</span>
 								</button>
 
 							</div>
 							<div class="form-group">
-								<input class="checkbox" type="checkbox" value="1" id="check-top"  />
-								<label for="check-top" class="text-left-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
+								<input class="checkbox" type="checkbox" value="Да" name="s8-form-check" id="s8-form-check"  />
+								<label for="s8-form-check" class="text-left-xs">Я хочу <span data-toggle="tooltip" data-text="Гарантийное обслуживание в течение [5 лет] всего за 3 499 руб" data-position="bottom" data-width="350">гарантийное обслуживание<br class="visible-xs" /> на 5 лет</span></label>
 							</div>
 
 						</div>
@@ -960,12 +957,12 @@
 					<div class="col-xs-12 col-sm-7">
 						<nav class="footer-nav">
 							<ul class="list-unstyled">
-								<li><a data-toggle="scroll" href="#top">В начало</a></li>
-								<li><a data-toggle="scroll" href="#s2">Преимущества</a></li>
-								<li><a data-toggle="scroll" href="#s3">Команда</a></li>
-								<li><a data-toggle="scroll" href="#s4">Как мы работаем</a></li>
-								<li><a data-toggle="scroll" href="#s6">Отзывы</a></li>
-								<li><a data-toggle="scroll" href="#s7">Вопрос-ответ</a></li>
+								<li><a id="footer-link--1" data-toggle="scroll" href="#top">В начало</a></li>
+								<li><a id="footer-link--2" data-toggle="scroll" href="#s2">Преимущества</a></li>
+								<li><a id="footer-link--3" data-toggle="scroll" href="#s3">Команда</a></li>
+								<li><a id="footer-link--4" data-toggle="scroll" href="#s4">Как мы работаем</a></li>
+								<li><a id="footer-link--5" data-toggle="scroll" href="#s6">Отзывы</a></li>
+								<li><a id="footer-link--6" data-toggle="scroll" href="#s7">Вопрос-ответ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -979,36 +976,39 @@
 				<span class="m-modal__closer" data-toggle="modal" data-target="#modal-1">&times;</span>
 				<div class="m-modal-inner">
 					<h2>
-						Заказать расчет стоимости<br />за установку антенны
+						Заказать расчет стоимости<br class="hidden-xs" /> за установку антенны
 					</h2>
-					<p class="promo-text text-center">Заполните форму ниже, наши специалисты оценят<br /> стоимость работ и перезвонят Вам</p>
+					<p class="promo-text text-center">Заполните форму ниже, наши специалисты оценят<br class="hidden-xs" /> стоимость работ и перезвонят Вам</p>
 					<!-- START: MODAL 2 FORM -->
 					<form id="modal-form" class="modal-form">
 
 						<div class="row">
-							<div class="col-xs-6">
+							<div class="col-xs-12 col-sm-6">
 								<div class="form-group form-group--file">
 									<span class="file-trigger"></span>
-									<input type="file" name="mf-foto" id="mf-foto">
+									<input type="file" name="mf-foto" id="modal-form-photo">
 									<span class="file-current"></span>
-									<label for="">Загрузить фотографию</label>
+									<span class="form-error tooltip"></span>
+									<label for="modal-form-photo">Загрузить фотографию</label>
+
 								</div>
 								<div class="disclaimer">
-									<p>Нажимая кнопку «Заказать оценку стоимости»,<br /> Вы соглашаетесь с <u>политикой обработкий <br />данных</u>. </p>
+									<p>Нажимая кнопку «Заказать оценку стоимости»,<br /> Вы соглашаетесь с <u>политикой обработки <br />данных</u>. </p>
 									<p>Поля, отмеченные <span class="required">*</span> обязательны для заполнения</p>
 								</div>
 							</div>
-							<div class="col-xs-6">
+							<div class="col-xs-12 col-sm-6">
 								<div class="form-group form-group--extended">
-									<label for="mf-tv-qty">Количество<span class="required">*</span> телевизоров:</label>
+									<label for="modal-form-qty">Количество<span class="required">*</span> телевизоров:</label>
 									<span class="qty">
-										<span class="qty-minus" data-target="mf-tv-qty">-</span>
-										<input type="number" name="mf-tv-qty" id="mf-tv-qty" value="1" readonly="readonly" min="1" max="7">
-										<span class="qty-plus" data-target="mf-tv-qty">+</span>
+										<span class="qty-minus" data-target="modal-form-qty">-</span>
+										<input type="number" name="modal-form-qty" id="modal-form-qty" value="1" readonly="readonly" min="1" max="7">
+										<span class="qty-plus" data-target="modal-form-qty">+</span>
 									</span>
-									<label for="mf-tv-models">Модели телевизоров:</label>
-									<textarea id="mf-tv-models" name="name" name="mf-tv-models" rows="3" cols="20" placeholder="Например: Philips Toshiba"></textarea>
 
+									<label for="modal-form-models">Модели телевизоров:</label>
+									<textarea id="modal-form-models" name="name" name="modal-form-models" rows="3" cols="20" placeholder="Например: Philips Toshiba"></textarea>
+									<span class="form-error tooltip"></span>
 								</div>
 							</div>
 						</div>
@@ -1018,11 +1018,11 @@
 								<div class="form-group form-inline">
 									<div class="form-group">
 										<span class="required">*</span>
-										<label for="s5-phone" class="sr-only">Ваш телефон</label>
-										<input id="s5-phone" name="s5-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
+										<label for="modal-form-phone" class="sr-only">Ваш телефон</label>
+										<input id="modal-form-phone" name="modal-form-phone" type="text" maxlength="18" class="form-control text-center" placeholder="+7 (xxx) xxx-xx-xx" data-type="phone" data-mask="phone">
 										<span class="form-error tooltip"></span>
 
-										<button id="btn_3" class="btn btn-primary">
+										<button id="modal-form-btn" class="btn btn-primary">
 												<span>Заказать оценку стоимости</span>
 										</button>
 
@@ -1071,7 +1071,7 @@
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script type="text/javascript" src="assets/js/map.js"></script>
 	<script type="text/javascript" src="assets/js/rellax.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 	<script type="text/javascript" src="assets/js/common.js"></script>
 	<!-- END: Scripts -->
 </body>

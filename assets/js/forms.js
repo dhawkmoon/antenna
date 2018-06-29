@@ -21,6 +21,64 @@
 		 }
 	 }
  }
+/*
+ * 02 Warranty checkbox
+ */
+
+ var warranty = {
+	 value: 'Да',
+	 validate: {
+		 callback: function( v ) {
+			 //console.log(v)
+			 if( v == 'Да' || v == '' ) {
+				 return true
+			 }
+			 else {
+				 return {error: 'Некорректный формат поля гарантии'}
+			 }
+		 }
+	 }
+ }
+
+ /*
+  * 03 Qty of TV
+	*/
+
+	var qty = {
+		value: 1,
+		validate: {
+			pattern: {
+ 			 reg: /^\d*$/,
+ 			 error: 'Данное поле может содержать только цифры',
+ 		 }
+		}
+	}
+
+	/*
+	 * 04 models
+	 */
+	 var models = {
+		 value: '',
+		 validate: {
+			 max: {
+				 treshold: 60,
+				 error: 'Максимальная длина поля 60 символов',
+			 }
+		 }
+	 }
+
+	 /*
+	  * 05 photo
+		*/
+	var photo = {
+		value: '',
+		validate: {
+			pattern: {
+ 			 reg: /\.(jp(e)?g|png)$/,
+ 			 error: 'Загрузите фото в формате jpg или png.',
+ 		 }
+		}
+	}
 
  /*
  	*
@@ -32,21 +90,48 @@
 		{
 			id: 's1-form',
 			fields: {
-				'phone-top': phone,
+				's1-form-phone': phone,
+				's1-form-check': warranty,
+			},
+		},
+		{
+			id: 's1-form-mobile',
+			fields: {
+				's1-form-mobile-phone': phone,
+				's1-form-mobile-check': warranty,
 			},
 		},
 		{
 			id: 's3-form',
 			fields: {
-				's3-phone': phone,
-			}
+				's3-form-phone': phone,
+				's3-form-check': warranty,
+			},
 		},
 		{
-			id: 'prefooter-form',
+			id: 's5-form',
 			fields: {
-				'phone-bottom': phone,
-			}
+				's5-form-phone': phone,
+				's5-form-check': warranty,
+			},
 		},
+		{
+			id: 's8-form',
+			fields: {
+				's8-form-phone': phone,
+				's8-form-check': warranty,
+			},
+		},
+		{
+			id: 'modal-form',
+			fields: {
+				'modal-form-qty': 		qty,
+				'modal-form-models':  models,
+				'modal-form-photo':   photo,
+				'modal-form-phone':   phone,
+				'modal-form-check':   warranty,
+			}
+		}
 	]
 
 	/*
@@ -67,7 +152,7 @@
 		*/
 
 		var onSubmitError = function( f, r ) {
-			f.next().text( r.error )
+			f.siblings('.form-error').text( r.error )
 			f.removeClass( 'has-success' )
  		 	f.addClass( 'has-error' )
 		}
@@ -77,7 +162,7 @@
 	  */
 
 		var onSuccess = function( f ) {
-			f.next().text( '' )
+			f.siblings('.form-error').text( '' )
 			f.removeClass( 'has-error' )
 			f.addClass( 'has-success' )
 		}
@@ -150,3 +235,9 @@
 		 }
 		 //Let's rock
 		 validateUs( forms )
+
+		 //Kill tooltip with errors
+		 $('.form-error').on( 'click', function(){
+			 //console.log(1)
+			 $(this).text('')
+		 } )

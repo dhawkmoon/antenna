@@ -432,5 +432,5 @@
   * Let's rock!
   *
 	*/
-
-	ymaps.ready( mapInit );
+	if( typeof ymaps != 'undefined' )
+		ymaps.ready( mapInit );
