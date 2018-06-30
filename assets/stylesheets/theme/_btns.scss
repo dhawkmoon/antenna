@@ -1,4 +1,5 @@
 .btn {
+	position: relative;
 	outline: none !important;
 	font-size: 18px;
 	font-weight: bold;
@@ -15,7 +16,9 @@
 		background: linear-gradient(to bottom, rgba(252,198,89,1) 0%,rgba(255,124,46,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc659', endColorstr='#ff7c2e',GradientType=0 ); /* IE6-9 */
 		@include trans;
-		&:hover {
+		&:hover,
+		&[disabled] {
+			opacity: 1 !important;
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe15d+0,fe902f+90 */
 			background: rgb(255,225,93); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
 			background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,225,93,1)),color-stop(90%, rgba(254,144,47,1)));
@@ -28,5 +31,16 @@
 	&-fullwidth {
 		width: 100%;
 		margin-top: 15px;
+	}
+}
+
+.loading {
+	.btn {
+		&>span:first-child {
+			opacity: 0;
+		}
+		.spinner {
+			display: block;
+		}
 	}
 }

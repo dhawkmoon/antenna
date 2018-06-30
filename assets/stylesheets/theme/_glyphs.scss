@@ -97,3 +97,97 @@
 		height: 65px;
 	}
 }
+
+.antenna {
+	position: relative;
+	display: inline-block;
+	width: 51px;
+	height: 39px;
+	@media all and (max-width: 768px) {
+		width: 60px;
+		height: 45px;
+	}
+	&__emmiter {
+		position: absolute;
+		right: 0;
+		@include glyph( url(../img/antenna-single.svg) );
+		width: 50px;
+		height: 23px;
+		@media all and (max-width: 768px) {
+			width: 60px;
+    	height: 26px;
+		}
+	}
+	&__gear {
+		position: absolute;
+		@include glyph( url(../img/gear.svg) );
+		&--1 {
+			width: 11px;
+			height: 11px;
+			bottom: 0;
+			left: 17px;
+			@media all and (max-width: 768px) {
+				width: 13px;
+	    	height: 13px;
+			}
+
+		}
+		&--2 {
+			width: 10px;
+			height: 10px;
+			bottom: 0;
+			left: 29px;
+			@media all and (max-width: 768px) {
+				width: 12px;
+	    	height: 12px;
+				left: 30px;
+			}
+
+		}
+		&--3 {
+			width: 9px;
+			height: 9px;
+			bottom: 10px;
+			left: 25px;
+			@media all and (max-width: 768px) {
+				left: 26px;
+				bottom: 11px;
+				width: 11px;
+	    	height: 11px;
+			}
+
+		}
+	}
+}
+
+.feature:hover {
+	.antenna__gear {
+		&--1 {
+
+				@include rotatingClockward;
+
+		}
+		&--2,
+		&--3 {
+
+				@include rotatingBackward;
+
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.antenna__gear {
+		&--1 {
+
+				@include rotatingClockward;
+
+		}
+		&--2,
+		&--3 {
+
+				@include rotatingBackward;
+
+		}
+	}
+}

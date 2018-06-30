@@ -23,13 +23,13 @@
                     $orderNumber = getOrderNumber();
 
 					$data = [
-						'phone' 	=> 	$fields['phone'],
-						'warrant' =>  $fields['warranty'],
-						'number' 	=> 	$orderNumber,
-						'date'		=>  date( 'd-m-Y' ),
-						'time'		=>  date( 'H:i:s' ),
-						'form'		=>  $_POST['form'],
-						'url'			=>  preg_replace( '/\-_\-/', '&', $_POST['url'] ),
+						'phone' 	 =>  $fields['phone'],
+						'warranty' =>  ( isset( $fields['warranty'] ) ? $fields['warranty'] : 'Нет' ),
+						'number' 	 => 	$orderNumber,
+						'date'		 =>  date( 'd-m-Y' ),
+						'time'		 =>  date( 'H:i:s' ),
+						'form'		 =>  $_POST['form'],
+						'url'			 =>  preg_replace( '/\-_\-/', '&', $_POST['url'] ),
 					];
 
 					$tmpl = TemplateService::load( 'mails/phone.tpl' );

@@ -194,17 +194,25 @@
 			*/
 		 function printSuccess( $f, t )
 		 {
-			 $f.html( '<span class="message message-success">'+t+'</span>' )
+			 $f.append( '<span class="message message-success">'+t+'</span><span class="m-modal-overlay"></span>' )
 		 }
 		 /*
 		  * 03 Prints mesaage to user on onError
 		  */
 		 function printError( $f, t )
 		 {
-			 $f.html( '<span class="message message-error">'+t+'</span>' )
+			 $f.append( '<span class="message message-error">'+t+'</span><span class="m-modal-overlay"></span>' )
 		 }
 		 /*
-		  * 04 Sends data
+		  * 04 Clear form
+			*/
+		 function clearForm( $f )
+		 {
+			 $f.find('[disabled]').prop( 'disabled', false )
+			 $f.removeClass('loading')
+		 }
+		 /*
+		  * 05 Sends data
 		  */
 		 function send( $form )
 		 {
@@ -213,23 +221,25 @@
 			 data += '&url=' + window.location.search.replace( /&/g, '-_-' )
 			 //console.log( data )
 			 $.ajax({
-					url: '/backend/send',
+					url: 'http://dhawkml8.bget.ru/backend/send',
 					type: 'POST',
 					data: data,
 					context: $form,
 					success: function( response ) {
 						//printSuccess( $(this), response )
 						setTimeout( printSuccess, 2000, $(this), response )
-						dataLayer.push({
-			 				'event' : 'formsend',
-			 				'eventCategory' : 'form',
-			 				'eventAction' : 'send-btn',
-			 				'eventLabel' : $(this).attr('id')
-		 				});
+						setTimeout( clearForm, 2000, $(this) )
+						// dataLayer.push({
+			 			// 	'event' : 'formsend',
+			 			// 	'eventCategory' : 'form',
+			 			// 	'eventAction' : 'send-btn',
+			 			// 	'eventLabel' : $(this).attr('id')
+		 				// });
 					},
 					error: function( response ) {
 						//console.log(response)
 						setTimeout( printError, 2000, $(this), response.responseText )
+						setTimeout( clearForm, 2000, $(this) )
 					},
 				})
 		 }
@@ -240,4 +250,9 @@
 		 $('.form-error').on( 'click', function(){
 			 //console.log(1)
 			 $(this).text('')
+		 } )
+
+		 //Remove messages
+		 $('body').on( 'overlayremoved', function(){
+			 $('.message').remove()
 		 } )

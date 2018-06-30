@@ -65,6 +65,7 @@ jQuery(document).ready(function($){
     removeOverlay: function( e ) {
       $('.m-modal-overlay').remove()
       $('body').removeClass('modal-open')
+			$('body').trigger('overlayremoved')
     },
     closeAll: function(e) {
 

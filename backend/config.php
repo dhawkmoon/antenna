@@ -8,7 +8,7 @@
     //Список получателей - ассоциативный массив, где ключ - адрес почты, значение - имя получателя
 	define( 'BASIC_TO',
 		[
-		   'hawkmoon@mail.ru' => 'Михаил',
+		   'dhawkmoon@mail.ru' => 'Михаил',
 		]
 	);
 
@@ -59,11 +59,11 @@
 			's3-form-phone'  =>  FIELD_PHONE,
 			's5-form-phone'  =>  FIELD_PHONE,
 			's8-form-phone'  =>  FIELD_PHONE,
-			's1-form-warranty'  =>  FIELD_WARRANTY,
-			's1-form-mobile-warranty'  =>  FIELD_WARRANTY,
-			's3-form-warranty'  =>  FIELD_WARRANTY,
-			's5-form-warranty'  =>  FIELD_WARRANTY,
-			's8-form-warranty'  =>  FIELD_WARRANTY,
+			's1-form-check'  =>  FIELD_WARRANTY,
+			's1-form-mobile-check'  =>  FIELD_WARRANTY,
+			's3-form-check'  =>  FIELD_WARRANTY,
+			's5-form-check'  =>  FIELD_WARRANTY,
+			's8-form-check'  =>  FIELD_WARRANTY,
 			'modal-form-phone'  =>  FIELD_WARRANTY,
 			'modal-form-qty'	=> FIELD_QTY,
 			'modal-form-models' => FIELD_MODELS,

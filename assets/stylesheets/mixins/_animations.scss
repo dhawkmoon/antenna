@@ -322,3 +322,61 @@
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
 }
+
+
+@-webkit-keyframes rotatingClockward {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes rotatingClockward {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@mixin rotatingClockward
+ {
+  -webkit-animation: rotatingClockward 3s linear infinite;
+  animation: rotatingClockward 3s linear infinite;
+}
+
+@-webkit-keyframes rotatingBackward{
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotatingBackward{
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@mixin rotatingBackward
+ {
+  -webkit-animation: rotatingBackward 3s linear infinite;
+  animation: rotatingBackward 3s linear infinite;
+}
