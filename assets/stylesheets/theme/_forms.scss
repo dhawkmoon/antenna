@@ -69,6 +69,10 @@ input[type=text] {
 		float: left;
 		color: $brand-primary;
 		cursor: pointer;
+		@include trans;
+		&:hover {
+			color: $brand-light;
+		}
 	}
 	input,
 	span
@@ -180,8 +184,16 @@ input[type=text] {
 	border: 2px solid $brand-primary;
 	padding: 30px;
 	height: 115px;
+	cursor: pointer;
+	@include trans;
 	input[type="file"] {
 		display: none;
+	}
+	&:hover {
+		border-color: $brand-light;
+		.file-trigger {
+			background-image: url(../img/camera-alt.svg);
+		}
 	}
 	.file-trigger {
 		display: block;
@@ -192,6 +204,7 @@ input[type=text] {
 		background-image: url(../img/camera.svg);
 		position: relative;
 		top: -5px;
+		@include trans;
 	}
 	label {
 		position: absolute;
@@ -199,6 +212,15 @@ input[type=text] {
 		width: 50%;
 		left: 145px;
 		@include font-smooth;
+		&::before {
+			content: '';
+		  position: absolute;
+		  width: 370px;
+		  height: 115px;
+		  display: block;
+		  left: -130px;
+		  top: -30px;
+		}
 		@media all and (max-width: 768px) {
 			font-size: 14px;
     	line-height: 1;

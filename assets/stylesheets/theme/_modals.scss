@@ -59,6 +59,9 @@
     font-size: 60px;
     color: $brand-secondary;
     line-height: .6;
+		&:hover {
+			color: $brand-light;
+		}
   }
   &-overlay {
     position: fixed;
