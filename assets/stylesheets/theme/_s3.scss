@@ -99,57 +99,59 @@
 			margin-top: 5px;
 			font-size: 14px;
 			&--ready {
+				color: $brand-light;
 				position: relative;
 				display: inline-block;
-				margin-top: 10px;
-				border-radius: $border-radius-base;
-				border: 1px solid $brand-light;
-				padding: 2px 9px;
-				font-size: 12px;
-				color: $body-bg;
-				background-color: $brand-light;
-				opacity: .8;
-				&::before {
-					content: '';
-					display: block;
-					position: absolute;
-					width: 10px;
-					height: 10px;
-					background-color: $brand-light;
-					-webkit-transform: rotate(45deg);
-					        transform: rotate(45deg);
-					left: 0;
-					right: 0;
-					margin: auto;
-					top: -5px;
-				}
+				@include flash(1.3s);
+			//	margin-top: 10px;
+			//	border-radius: $border-radius-base;
+				//border: 1px solid $brand-light;
+				//padding: 2px 9px;
+				//font-size: 12px;
+			//	color: $body-bg;
+				//background-color: $brand-light;
+				// opacity: .8;
+				// &::before {
+				// 	content: '';
+				// 	display: inline-block;
+				// 	position: relative;
+				// 	width: 8px;
+				// 	height: 8px;
+				// 	border-radius: 50%;
+				// 	margin-right: 5px;
+				//
+				// 	background-color: $brand-light;
+				// }
 
 			}
 			&--busy {
+				color: $brand-primary;
 				position: relative;
 				display: inline-block;
-				margin-top: 10px;
-				border-radius: $border-radius-base;
-				border: 1px solid $brand-primary;
-				padding: 2px 9px;
-				font-size: 12px;
-				color: $body-bg;
-				background-color: $brand-primary;
-				opacity: .8;
-				&::before {
-					content: '';
-					display: block;
-					position: absolute;
-					width: 10px;
-					height: 10px;
-					background-color: $brand-primary;
-					-webkit-transform: rotate(45deg);
-					        transform: rotate(45deg);
-					left: 0;
-					right: 0;
-					margin: auto;
-					top: -5px;
-				}
+				// position: relative;
+				// display: inline-block;
+				// margin-top: 10px;
+				// border-radius: $border-radius-base;
+				// border: 1px solid $brand-primary;
+				// padding: 2px 9px;
+				// font-size: 12px;
+				// color: $body-bg;
+				// background-color: $brand-primary;
+				// opacity: .8;
+				// &::before {
+				// 	content: '';
+				// 	display: block;
+				// 	position: absolute;
+				// 	width: 10px;
+				// 	height: 10px;
+				// 	background-color: $brand-primary;
+				// 	-webkit-transform: rotate(45deg);
+				// 	        transform: rotate(45deg);
+				// 	left: 0;
+				// 	right: 0;
+				// 	margin: auto;
+				// 	top: -5px;
+				// }
 			}
 		}
 		&__list {
