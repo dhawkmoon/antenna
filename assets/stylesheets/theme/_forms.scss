@@ -53,12 +53,14 @@ input[type=text] {
 	input {
 		display: block;
 		position: relative;
-		left: 10px;
+		//left: 10px;
 		background-color: $body-bg;
 		border: none;
-		outline: none;
+		outline: none !important;
 		width: 33%;
 		float: left;
+		-webkit-box-shadow: none !important;
+		        box-shadow: none !important;
 		@media all and (max-width: 768px) {
 			left: 0;
 		}
