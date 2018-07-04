@@ -292,197 +292,267 @@
 	 {name:"улица Хамовнический Вал, 4",text:"Россия, Москва",coords:[55.71675207, 37.57678000],type:"receiver"},
 	 {name:"Кропоткинский переулок, 4с1",text:"Россия, Москва",coords:[55.73758307, 37.59442250],type:"receiver"},
 	 {
-		 name: 'Останкинская телебашня',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, телебашня Останкино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 540 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 10 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p></div>',
-		 coords: [55.81961640, 37.61188539],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Москва, Бутово',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, Бутово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 60 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p></div>',
-		 coords: [55.54326023, 37.55367356],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Солнечногорск',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Солнечногорск</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [56.19773424, 36.98791650],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Щелковский район, с. Петровское',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Щелковский район, с. Петровское</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [56.08759929, 38.22675100],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Истринский район, д. Давыдовское',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Истринский район, д. Давыдовское</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [55.86186801, 36.79794950],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Наро-Фоминский район, д. Пожитково',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Наро-Фоминский район, д. Пожитково</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [55.41894417, 36.81540850],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Воскресенский район, д. Богатищево',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Воскресенский район, д. Богатищево</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [55.45655349, 38.74209700],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Москва, Троицкий административный округ, п. Рогово',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Москва, Троицкий административный округ, п. Рогово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [55.21425975, 37.08098600],
-		 type: 'emmiter',
-	 },
-	 {
-		 name: 'Московская область, Чехов',
-		 text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Чехов</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-		 coords: [55.15074341, 37.44598050],
-		 type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Рузский район, д. Морево',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Рузский район, д. Морево</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [55.63508810, 36.42376950],
+	 	name: 'Останкинская телебашня',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 540 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 10 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p>',
+	 	coords: [55.81961640, 37.61188539],
 	 	type: 'emmiter',
 	 },
 	 {
-	 	name: 'Калужская область, Обнинск',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Калужская область, Обнинск</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 52 (722 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 43 (650 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p></div>',
-	 	coords: [55.09695810, 36.59782750],
-	 	type: 'emmiter',
-	 },
-	 //
-	 {
-	 	name: 'Калужская область, Обнинск',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Серпухов</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 119 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [54.92418246, 37.41119800],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Тульская область, Ясногорский район, с. Башино',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Калужская область, Обнинск</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 52 (722 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 43 (650 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p></div>',
-	 	coords: [54.70697131, 37.92524550],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Тульская область, Заокский',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Тульская область, Заокский</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 34 (578 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 60 (786 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [54.66648879, 37.48450500],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Ступино',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Ступино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [54.89220605, 38.10035850],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Ступинский район, д. Алфимово',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Ступинский район, д. Алфимово</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [55.11272596, 38.33174200],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Озеры',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Озеры</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 55 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [54.85922487, 38.53176550],
-	 	type: 'emmiter',
-	 },
-	 //
-	 {
-	 	name: 'Московская область, Зарайск',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Зарайск</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 199 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [54.76204914, 38.88811400],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Егорьевский район, д. Кузьминки',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Егорьевский район, д. Кузьминки</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 90 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [55.22815857, 39.06289400],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Шатура',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Шатура</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 245 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p></div>',
-	 	coords: [55.58637174, 39.54727050],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Орехово-Зуевский район, гп Ликино-Дулево',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Орехово-Зуевский район, гп Ликино-Дулево</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [55.71661016, 38.94440650],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Владимирская область, Киржач',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Владимирская область, Киржач</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 35 (586 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 22 (482 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [56.14913053, 38.86770800],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Владимирская область, Александров',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Владимирская область, Александров</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 35 (586 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 22 (482 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p></div>',
-	 	coords: [56.39198419, 38.71826900],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Сергиево-Посадский район, с. Мишутино',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Сергиево-Посадский район, с. Мишутино</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [56.38368744, 38.09980550],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Дмитровский район, с. Подчерково',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Дмитровский район, с. Подчерково</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [56.37642559, 37.55096250],
-	 	type: 'emmiter',
-	 },
-	 {
-	 	name: 'Московская область, Дмитровский район, д. Новоселки',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Дмитровский район, д. Новоселки</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [56.37358909, 37.11388700],
+	 	name: 'Москва, Бутово',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 60 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p>',
+	 	coords: [55.54326023, 37.55367356],
 	 	type: 'emmiter',
 	 },
 	 {
 	 	name: 'Московская область, Солнечногорск',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Солнечногорск</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
 	 	coords: [56.19773424, 36.98791650],
 	 	type: 'emmiter',
 	 },
 	 {
-	 	name: 'Московская область, Клин',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Клин</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 90 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p></div>',
-	 	coords: [56.34534932, 36.74075800],
+	 	name: 'Московская область, Щелковский район, с. Петровское',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [56.08759929, 38.22675100],
 	 	type: 'emmiter',
 	 },
 	 {
-	 	name: 'Московская область, Талдомский район, пгт Северный',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Московская область, Талдомский район, пгт Северный</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> 120 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p></div>',
-	 	coords: [56.72718052, 37.62232450],
+	 	name: 'Московская область, Истринский район, д. Давыдовское',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [55.86186801, 36.79794950],
 	 	type: 'emmiter',
 	 },
 	 {
-	 	name: 'Тверская область, Кимры',
-	 	text: '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">Тверская область, Кимры</h3><p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 37 (602 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p></div>',
-	 	coords: [56.85729796, 37.32610050],
+	 	name: 'Московская область, Наро-Фоминский район, д. Пожитково',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [55.41894417, 36.81540850],
 	 	type: 'emmiter',
+	 },
+	 {
+	 	name: 'Московская область, Воскресенский район, д. Богатищево',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [55.45655349, 38.74209700],
+	 	type: 'emmiter',
+	 },
+	 {
+	 	name: 'Москва, Троицкий административный округ, п. Рогово',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [55.21425975, 37.08098600],
+	 	type: 'emmiter',
+	 },
+	 {
+	 	name: 'Московская область, Чехов',
+	 	text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	 	coords: [55.15074341, 37.44598050],
+	 	type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Рузский район, д. Морево',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.63508810, 36.42376950],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Калужская область, Обнинск',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 52 (722 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 43 (650 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p>',
+	  coords: [55.09695810, 36.59782750],
+	  type: 'emmiter',
+	 },
+	 //
+	 {
+	  name: 'Калужская область, Обнинск',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 119 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [54.92418246, 37.41119800],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Тульская область, Ясногорский район, с. Башино',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 52 (722 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 43 (650 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p>',
+	  coords: [54.70697131, 37.92524550],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Тульская область, Заокский',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 34 (578 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 60 (786 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [54.66648879, 37.48450500],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Ступино',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [54.89220605, 38.10035850],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Ступинский район, д. Алфимово',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.11272596, 38.33174200],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Озеры',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 55 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [54.85922487, 38.53176550],
+	  type: 'emmiter',
+	 },
+	 //
+	 {
+	  name: 'Московская область, Зарайск',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 199 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [54.76204914, 38.88811400],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Егорьевский район, д. Кузьминки',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 90 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.22815857, 39.06289400],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Шатура',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 245 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p>',
+	  coords: [55.58637174, 39.54727050],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Орехово-Зуевский район, гп Ликино-Дулево',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 84 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 53 (730 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.71661016, 38.94440650],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Владимирская область, Киржач',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 35 (586 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 22 (482 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.14913053, 38.86770800],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Владимирская область, Александров',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 35 (586 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 22 (482 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p>',
+	  coords: [56.39198419, 38.71826900],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Сергиево-Посадский район, с. Мишутино',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.38368744, 38.09980550],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Дмитровский район, с. Подчерково',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.37642559, 37.55096250],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Дмитровский район, д. Новоселки',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.37358909, 37.11388700],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Солнечногорск',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.19773424, 36.98791650],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Клин',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 90 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.34534932, 36.74075800],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Талдомский район, пгт Северный',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 120 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 30 (546 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 24 (498 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p>',
+	  coords: [56.72718052, 37.62232450],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Тверская область, Кимры',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 37 (602 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [56.85729796, 37.32610050],
+	  type: 'emmiter',
+	 },
+	 //
+	 {
+	  name: 'Тверская область, Конаковский район, пгт Новозавидовский',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 37 (602 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [56.55286101, 36.43088900],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Волоколамск',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 246 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 5 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Запущен</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.03060013, 35.95319650],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Шаховской район, д. Жилые горы',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 48 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 0,25 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [56.02170109, 35.45277150],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Тверская область, Зубцовский район, с. Погорелое Городище',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 26 (514 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 46 (674 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [56.13626148, 34.93142550],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Смоленская область, Гагаринский район, с. Карманово',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 39 (618 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 44 (658 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [55.84228913, 34.85938950],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Смоленская область, Гагаринский район, д. Акатово',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 31 (554 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [55.59363167, 35.19454200],
+	  type: 'emmiter',
+	 },
+	 //
+	 {
+	  name: 'Московская область, Можайский район, д. Мокрое',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 72 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 1 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.44793330, 35.51165650],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Московская область, Можайский район, д. Отяково',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> 150 м.</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> 2 кВт</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 59 (778 МГц)</p><p style="margin:0; text-align:left">Статус: Работает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 56 (754 МГц)</p><p style="margin:0; text-align:left">Статус: Строится</p>',
+	  coords: [55.47872998, 36.07757700],
+	  type: 'emmiter',
+	 },
+	 {
+	  name: 'Смоленская область, Темкинский район, д. Рязаново',
+	  text: '<p style="margin:0; text-align:left"><b>Высота вышки:</b> -</p><p style="margin:0; text-align:left"><b>Мощность передатчика:</b> -</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-1 (первый мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 58 (770 МГц)</p><p style="margin:0; text-align:left">Статус: Вещает</p><p style="margin:0; text-align:left; margin-top:7px;"><b>РТРС-2 (второй мультиплекс)</b></p><p style="margin:0; text-align:left">ТВК 31 (554 МГц)</p><p style="margin:0; text-align:left">Статус: Законсервирован</p>',
+	  coords: [55.25191364, 35.14704400],
+	  type: 'emmiter',
 	 },
  ];
  /**
   *
-  * 02 Add Pin
+  * 02 Get Pin Content
   *
-	* @func
+  * @func
   *
-  * Добавляет метку на карту. Вызываю биндом на MAP
-	*
+  * СОбирает описание метки
+  *
   */
+	var getPinContent = function( pin )
+	{
+		return '<div style="padding:10px 0 10px 10px"><h3 style="margin:0; font-size:18px; text-align:left; margin-bottom:5px;">'+pin.name+'</h3>'+pin.text+'</div>'
+	}
+
+	/**
+   *
+   * 03 Add Pin
+   *
+ 	* @func
+   *
+   * Добавляет метку на карту. Вызываю биндом на MAP
+ 	*
+   */
  var addPin = function( pin )
  {
 	 if( pin.type == 'receiver' ) {
@@ -497,7 +567,7 @@
 	 }
 	 var placemark = new ymaps.Placemark( pin.coords, {
 		 hintContent: pin.name,
-		 balloonContent: pin.text,
+		 balloonContent: getPinContent( pin ),
 	 },
 	 {
 		 iconLayout: 'default#image',
@@ -573,7 +643,7 @@
   *
   * Функции
   *
-  * 02 Инициализация карты
+  * 04 Инициализация карты
   *
   */
 
