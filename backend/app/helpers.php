@@ -4,13 +4,37 @@
   {
     $result = [];
     foreach ( $fields as $key => $field ) {
-      if(  isset( $_POST[$key] ) && preg_match( $field['pattern'], $_POST[$key] )  ) {
+      if(  isset( $_POST[$key] ) && preg_match_all( $field['pattern'], $_POST[$key] )  ) {
         $result[ $field['name'] ] = $_POST[$key] ;
       }
     }
     return $result;
   }
-	/*
+  
+  function validateFormFiles( array $files ):array
+  {
+    $result = [];
+    foreach( $files as $key => $file ) {
+        if( 
+            isset( $_FILES[$key] ) &&
+            $_FILES[$key]['size'] <= $file['max'] &&
+            call_user_func( $file['type'], $_FILES[$key]['tmp_name'] )
+        ) {
+            $result[] = [
+            'tmp_name' =>  $_FILES[$key]['tmp_name'],
+            'name'     =>  $_FILES[$key]['name'],
+            ];
+        }
+    }
+    return $result;
+  }
+  function addAttachments( $mail, array $attachments )
+  {
+      foreach( $attachments as $attachment ) {
+          $mail->addAttachment( $attachment['tmp_name'], $attachment['name'] );
+      }
+  }
+  /*
    * Filters phone numbers, that are scum
    */
   function isBadPhone( string $field )

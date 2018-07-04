@@ -129,8 +129,14 @@
 				'modal-form-models':  models,
 				'modal-form-photo':   photo,
 				'modal-form-phone':   phone,
-				'modal-form-check':   warranty,
-			}
+			},
+			onFormSuccess: function( f )
+			{
+	
+    			 startLoading( $(f) )
+    			 send( $(f), 'detailed' )
+		 
+			},
 		}
 	]
 
@@ -214,17 +220,23 @@
 		 /*
 		  * 05 Sends data
 		  */
-		 function send( $form )
+		 function send( $form, action='send' )
 		 {
-			 var data = $form.serialize()
-			 data += '&form='+$form.attr('id')
-			 data += '&url=' + window.location.search.replace( /&/g, '-_-' )
+			 //var data = $form.serialize()
+			 var data = new FormData( $form[0] )
+			// data += '&form='+$form.attr('id')
+			// data += '&url=' + window.location.search.replace( /&/g, '-_-' )
 			 //console.log( data )
+			 // IMPORTANT: Refactored code usind FormData model
+			 data.append( 'form', $form.attr('id') )
+			 data.append( 'url', window.location.search.replace( /&/g, '-_-' ) )
 			 $.ajax({
-					url: 'http://dhawkml8.bget.ru/backend/send',
+					url: '/backend/'+action,
 					type: 'POST',
 					data: data,
 					context: $form,
+					processData: false,
+  	                contentType: false,
 					success: function( response ) {
 						//printSuccess( $(this), response )
 						setTimeout( printSuccess, 2000, $(this), response )

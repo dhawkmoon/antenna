@@ -1,7 +1,10 @@
 <?php
 
 	define( 'BASE_PATH', '/backend' );
-
+    
+    //Контактный телефон
+	define( 'BASIC_CONTACT_PHONE', '+7 (495) 142-17-34' );
+	
     //Адрес отправителя (отправитель должен быть в домене @job.line4life.ru)
 	define( 'BASIC_FROM', 'info@antenna.ru' );
 
@@ -42,7 +45,7 @@
 	//Поле моделей
 	define( 'FIELD_MODELS',  [
 		'name'    => 'models',
-		'pattern' => '/^(.){0,60}$/',
+		'pattern' => '/^(.){0,60}$/s',
 	]	);
 
 	//Поле моделей
@@ -64,12 +67,22 @@
 			's3-form-check'  =>  FIELD_WARRANTY,
 			's5-form-check'  =>  FIELD_WARRANTY,
 			's8-form-check'  =>  FIELD_WARRANTY,
-			'modal-form-phone'  =>  FIELD_WARRANTY,
+			'modal-form-phone'  =>  FIELD_PHONE,
 			'modal-form-qty'	=> FIELD_QTY,
 			'modal-form-models' => FIELD_MODELS,
 			'modal-form-photo'  =>  FIELD_PHOTO,
 		]
 	);
+    //Определяем правило для фото
+    define( 'FILE_PHOTO', 
+    [
+        'type' => 'is_image', //function to check type
+        'max'  => BASIC_UPLOAD_SIZE, 
+    ] );
+    //Все файлы
+    define( 'FORM_FILES', [
+        'modal-form-photo' => FILE_PHOTO,
+    ] );
 
     //Черный список телефонных номеров
 	define( 'BAD_PHONES', [

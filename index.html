@@ -1026,13 +1026,13 @@
 					</h2>
 					<p class="promo-text text-center">Заполните форму ниже, наши специалисты оценят<br class="hidden-xs" /> стоимость работ и перезвонят Вам</p>
 					<!-- START: MODAL 2 FORM -->
-					<form id="modal-form" class="modal-form">
+					<form id="modal-form" class="modal-form" action="/" enctype="multipart/formdata">
 
 						<div class="row">
 							<div class="col-xs-12 col-sm-6">
 								<div class="form-group form-group--file">
 									<span class="file-trigger"></span>
-									<input type="file" name="mf-foto" id="modal-form-photo">
+									<input type="file" name="modal-form-photo" id="modal-form-photo">
 									<span class="file-current">Файл не выбран</span>
 									<span class="form-error tooltip"></span>
 									<label for="modal-form-photo">Загрузить фотографию</label>
@@ -1053,7 +1053,7 @@
 									</span>
 
 									<label for="modal-form-models">Модели телевизоров:</label>
-									<textarea id="modal-form-models" name="name" name="modal-form-models" rows="3" cols="20" placeholder="Например: Philips Toshiba"></textarea>
+									<textarea id="modal-form-models" name="modal-form-models" rows="3" cols="20" placeholder="Например: Philips Toshiba"></textarea>
 									<span class="form-error tooltip"></span>
 								</div>
 							</div>
