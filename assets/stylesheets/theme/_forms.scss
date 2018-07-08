@@ -30,8 +30,8 @@ input[type=text] {
 			line-height: 1;
 			background-color: white;
 			border-radius: $border-radius-base;
-			@media all and (max-width: 767px) {
-				line-height: 1.1;
+			@media all and (max-width: 768px) {
+				line-height: 1.5 !important;
 			}
 		}
 	}

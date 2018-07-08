@@ -6270,9 +6270,9 @@ input[type=text] {
       line-height: 1;
       background-color: white;
       border-radius: 2px; }
-      @media all and (max-width: 767px) {
+      @media all and (max-width: 768px) {
         .checkbox + label::before {
-          line-height: 1.1; } }
+          line-height: 1.5 !important; } }
   .checkbox:checked + label::before {
     content: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgdmlld0JveD0iMCAwIDkuNzMgMTAuNzkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZGVmcz4NCjxzdHlsZT4uY2xzLTF7ZmlsbDojMjExYjQ1O308L3N0eWxlPg0KPC9kZWZzPg0KPHRpdGxlPtCg0LXRgdGD0YDRgSAxPC90aXRsZT4NCjxnIGRhdGEtbmFtZT0i0KHQu9C+0LkgMiI+DQo8ZyBkYXRhLW5hbWU9ItCh0LvQvtC5IDEiPg0KPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNy41MSwxYTg1LjUzLDg1LjUzLDAsMCwwLTUuMyw4LjQyQTI3LDI3LDAsMCwxLDEuMTQsNS44MWgwYTQsNCwwLDAsMC0xLjEsMSwxMC44NCwxMC44NCwwLDAsMCwyLDRoLjIxQTc0LDc0LDAsMCwxLDkuNzMuMUw5LjY1LDBBNi4wNSw2LjA1LDAsMCwwLDcuNTEsMVoiLz4NCjwvZz4NCjwvZz4NCjwvc3ZnPg0K); }
 
@@ -7611,7 +7611,7 @@ header {
   .s5-form .btn {
     margin-left: 10px;
     width: 270px; }
-    @media all and (max-width: 992px) {
+    @media all and (max-width: 992px) and (min-width: 768px) {
       .s5-form .btn {
         margin-top: 0; } }
   .s5-form .checkbox + label {
