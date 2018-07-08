@@ -14,6 +14,18 @@ jQuery(document).ready( function($){
 		var width =  $(this).data('width')  || 'auto'
 
 		$tooltip.width( width )
+		if( $(window).width() <= 768 ) {
+			$tooltip.css( {
+				left: $(this).offset().left+'px',
+				top: ( $(this).offset().top+100 )+'px',
+			} )
+		}
+		else {
+			$tooltip.css( {
+				left: $(this).offset().left+'px',
+				top: $(this).offset().top+'px',
+			} )
+		}
 		$tooltip.css( {
 			left: $(this).offset().left+'px',
 			top: $(this).offset().top+'px',
