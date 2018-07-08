@@ -48,23 +48,23 @@ jQuery(document).ready( function($){
 		var text = format( $(this).data('text') )
 		var $tooltip = $('<span class="tooltip">'+text+'</span>')
 
-		var width =  $(this).data('width')  || 'auto'
+		var width =  270
 
 		$tooltip.width( width )
 
 		$tooltip.css( {
-			left: $(this).offset().left+'px',
-			top: Math.abs( $(this).offset().top+$('body').scrollTop() )+'px',
+			transform: 'none',
+		//	width: 270+'px !important',
 		} )
 
 
 
 		if( $(this).data('position') == 'bottom' )
-			$tooltip.css({marginTop:$(this).height()+20})
+			$tooltip.css({marginTop:$(this).height()})
 
-		$tooltip.css({marginLeft:$(this).width()/2})
+	//	$tooltip.css({marginLeft:$(this).width()/2})
 
-		$('body').append( $tooltip )
+		$(this).append( $tooltip )
 		$tooltip.animate( {opacity: 1}, 200, function(){
 			$('body').on( 'click', {tooltip: $tooltip}, function(e){
 				//

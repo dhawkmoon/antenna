@@ -292,6 +292,9 @@ input[type=text] {
   margin: auto;
   text-align: center;
 	@include fadeInTop(.15s);
+	@media all and (max-width: 768px) {
+		width: 320px;
+	}
 	&-success::before {
 		content: '';
 		display: block;
