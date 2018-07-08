@@ -34,14 +34,14 @@ header {
 				}
 			}
 			&:last-child {
-				@media all and (max-width: 768px) {
+				@media all and (max-width: 767px) {
 					margin-left: 0;
     			margin-top: 10px;
 				}
 			}
 			&:nth-child(2) {
 				&::after {
-					@media all and (max-width: 768px) {
+					@media all and (max-width: 767px) {
 						display: none;
 					}
 				}
@@ -74,6 +74,10 @@ header {
 		top: 34px;
 		right: -203px;
 		border-top: 1px solid $brand-secondary;
+		@media all and (max-width: 1200px) {
+			width: 60px;
+			right: -78px;
+		}
 		@media all and (max-width: 768px) {
 			display: none;
 		}

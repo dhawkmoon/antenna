@@ -74,7 +74,10 @@
 	&-tall {
 		.power__inner {
 			height: 395px;
-			@media all and (max-width: 768px) {
+			@media all and (max-width: 1200px) {
+				height: 320px;
+			}
+			@media all and (max-width: 767px) {
 				height: 88vw;
 			}
 		}
@@ -82,7 +85,10 @@
 	&-long {
 		.power__inner {
 			height: 270px;
-			@media all and (max-width: 768px) {
+			@media all and (max-width: 1200px) {
+				height: 320px;
+			}
+			@media all and (max-width: 767px) {
 				height: 88vw;
 			}
 		}

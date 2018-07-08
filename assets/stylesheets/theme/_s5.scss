@@ -13,14 +13,17 @@
 		.btn {
 			margin-left: 10px;
 			width: 270px;
-		}
-		.checkbox+label {
-			margin-top: 25px;
-			@media all and (max-width: 768px) {
+			@media all and (max-width: 992px) {
 				margin-top: 0;
 			}
 		}
-		@media all and (max-width: 768px) {
+		.checkbox+label {
+			margin-top: 25px;
+			@media all and (max-width: 767px) {
+				margin-top: 0;
+			}
+		}
+		@media all and (max-width: 767px) {
 			height: auto;
 			padding: 15px 10px;
 			width: 100%;
@@ -40,7 +43,7 @@
 }
 #map {
 	height: 600px;
-	@media all and (max-width: 768px) {
+	@media all and (max-width: 767px) {
 		height: 330px;
 	}
 }
@@ -48,7 +51,7 @@
 	&-legend {
 		position: relative;
 		height: 190px;
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			max-width: 320px;
 	    margin-bottom: 90px;
 	    margin-left: auto;
@@ -61,7 +64,7 @@
 			&-1 {
 		    right: 11px;
 		    top: -15px;
-				@media all and (max-width: 768px) {
+				@media all and (max-width: 767px) {
 					right: 60px;
 					top: 0;
 				}
@@ -69,7 +72,7 @@
 			&-2 {
 				bottom: 35px;
     		left: -17px;
-				@media all and (max-width: 768px) {
+				@media all and (max-width: 767px) {
 					left: 45px;
 				}
 			}
@@ -89,7 +92,7 @@
 			    border-top: 4px dotted white;
 								-webkit-transform: translateX(69px) translateY(2px) rotate(13deg);
 								        transform: translateX(69px) translateY(2px) rotate(13deg);
-					@media all and (max-width: 768px) {
+					@media all and (max-width: 767px) {
 						-webkit-transform-origin: left;
 						        transform-origin: left;
 						-webkit-transform: rotate(10deg);
@@ -99,7 +102,7 @@
 						top: 13px;
 					}
 				}
-				@media all and (max-width: 768px) {
+				@media all and (max-width: 767px) {
 					top: -15px;
     			left: 45px;
 				}
@@ -107,6 +110,9 @@
 			&-2 {
 				top: 45px;
 				left: 255px;
+				@media all and (max-width: 992px) and (min-width: 768px) {
+					left: 155px;
+				}
 				&::before {
 					content: '';
 					display: block;
@@ -114,7 +120,12 @@
 					border-bottom: 4px dotted;
 					-webkit-transform: translateX(-165px) rotate(-18deg) translateY(38px);
 					        transform: translateX(-165px) rotate(-18deg) translateY(38px);
-					@media all and (max-width: 768px) {
+					@media all and (max-width: 992px) {
+						width: 66px;
+						-webkit-transform: translateX(-81px) rotate(-18deg) translateY(30px);
+						        transform: translateX(-81px) rotate(-18deg) translateY(30px);
+					}
+					@media all and (max-width: 767px) {
 						width: 135px;
 						-webkit-transform-origin: left;
 						        transform-origin: left;
@@ -133,7 +144,7 @@
 					margin-top: 5px;
 					color: #735dd7;
 				}
-				@media all and (max-width: 768px) {
+				@media all and (max-width: 767px) {
 					top: 230px;
 					left: 0;
 					right: 0;
@@ -203,7 +214,7 @@
 		font-size: 0;
 		margin-top: 50px;
 		margin-bottom: 30px;
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			position: static;
 			background-color: $body-bg;
 			width: 82px;
@@ -218,7 +229,7 @@
 	    display: block;
 	    left: 85px;
 			top: 35px;
-			@media all and (max-width: 768px) {
+			@media all and (max-width: 767px) {
 				position: absolute;
 				width: calc(100% - 30px);
 				left: 15px;
@@ -234,7 +245,7 @@
 	    display: block;
 			left: -575px;
     	top: 35px;
-			@media all and (max-width: 768px) {
+			@media all and (max-width: 767px) {
 				display: none;
 			}
 		}

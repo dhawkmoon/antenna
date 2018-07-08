@@ -10,7 +10,7 @@
 .team {
 	&-container {
 		position: relative;
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			padding: 0;
 			max-width: 320px;
 		}
@@ -26,7 +26,7 @@
 		}
 	}
 	&-wrapper {
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			margin-left: 0;
 			margin-right: 0;
 			position: relative;
@@ -46,7 +46,7 @@
 		}
 	}
 	&-slide {
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			float: left;
 			max-width: 320px;
 		}
@@ -180,7 +180,7 @@
 			color: $brand-primary;
 			@include font-smooth;
 		}
-		@media all and (max-width: 768px) {
+		@media all and (max-width: 767px) {
 			margin-bottom: 30px;
 		}
 	}
@@ -190,8 +190,13 @@
 		background-color: #2e2558;
 		-webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
 						box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
+		@media all and (max-width: 992px) {
+			margin-top: 35px;
+			height: 340px !important;
+		}
 		@media all and (max-width: 768px) {
 			padding: 30px 10px;
+			height: 400px;
 		}
 		h2 {
 			@include font-smooth;
@@ -211,6 +216,9 @@
 		.form-group {
 			margin: 40px auto;
 			width: 270px;
+			@media all and (max-width: 1200px) {
+				margin: 40px auto 0;
+			}
 			@media all and (max-width: 768px) {
 				margin: 25px auto;
 			}

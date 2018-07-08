@@ -17,6 +17,9 @@
 	&-container {
 		width: 1060px;
 		margin: 30px auto 0;
+		@media all and (max-width: 1200px) {
+			width: 100%;
+		}
 		@media all and (max-width: 768px) {
 			width: auto;
 			.swiper-slide {
@@ -94,7 +97,7 @@
 			&--long {
 				font-size: 14px;
 				height: 170px;
-				
+
 			}
 			@media all and (max-width: 768px) {
 				width: auto;
