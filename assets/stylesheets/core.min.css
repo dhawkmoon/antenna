@@ -6240,7 +6240,8 @@ button.close {
     -webkit-animation: rotatingBackward 3s linear infinite;
     animation: rotatingBackward 3s linear infinite; } }
 
-input[type=text] {
+input[type=text],
+input[type=tel] {
   outline: none !important;
   border-color: transparent !important;
   -webkit-box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.1) !important;
@@ -6358,10 +6359,12 @@ input[type=text] {
       position: absolute;
       left: 15px;
       top: 27px; }
-    .modal-form__footer .form-group input[type="text"] {
+    .modal-form__footer .form-group input[type="text"],
+    .modal-form__footer .form-group input[type="tel"] {
       width: 230px; }
       @media all and (max-width: 768px) {
-        .modal-form__footer .form-group input[type="text"] {
+        .modal-form__footer .form-group input[type="text"],
+        .modal-form__footer .form-group input[type="tel"] {
           width: 100%; } }
 
 .modal-form .btn-primary {
@@ -7183,7 +7186,8 @@ header {
           .s1-form-row form button {
             margin-top: 0;
             font-size: 15px; } }
-      .s1-form-row form input[type=text] {
+      .s1-form-row form input[type=text],
+      .s1-form-row form input[type=tel] {
         width: 220px; }
       .s1-form-row form .checkbox + label {
         margin-right: 10px; }
@@ -7287,7 +7291,8 @@ header {
       margin-bottom: 35px; } }
 
 @media all and (max-width: 768px) {
-  input[type="text"] {
+  input[type="text"],
+  input[type="tel"] {
     display: inline-block;
     text-align: center;
     max-width: 320px; }
@@ -7609,7 +7614,8 @@ header {
   background-color: #2e2558;
   -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2); }
-  .s5-form input[type=text] {
+  .s5-form input[type=text],
+  .s5-form input[type=tel] {
     width: 190px; }
   .s5-form .btn {
     margin-left: 10px;
@@ -7628,7 +7634,8 @@ header {
       padding: 15px 10px;
       width: 100%;
       max-width: 320px; }
-      .s5-form input[type="text"] {
+      .s5-form input[type="text"],
+      .s5-form input[type="tel"] {
         width: 100%; }
       .s5-form .btn {
         margin-left: 0;

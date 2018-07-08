@@ -7,7 +7,8 @@
 		background-color: #2e2558;
     -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2);
-		input[type=text] {
+		input[type=text],
+		input[type=tel] {
 			width: 190px;
 		}
 		.btn {
@@ -28,7 +29,8 @@
 			padding: 15px 10px;
 			width: 100%;
 	    max-width: 320px;
-			input[type="text"] {
+			input[type="text"],
+			input[type="tel"] {
 				width: 100%;
 			}
 			.btn {

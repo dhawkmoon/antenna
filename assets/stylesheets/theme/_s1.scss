@@ -85,7 +85,9 @@
 					font-size: 15px;
 				}
 			}
-			input[type=text] {
+			input[type=text],
+			input[type=tel]
+			{
 				width: 220px;
 			}
 			.checkbox+label {
@@ -198,7 +200,8 @@
 	}
 }
 @media all and (max-width: 768px) {
-		input[type="text"] {
+		input[type="text"],
+		input[type="tel"] {
 			display: inline-block;
 			text-align: center;
 			max-width: 320px;

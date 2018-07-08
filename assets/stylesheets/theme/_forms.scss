@@ -1,4 +1,5 @@
-input[type=text] {
+input[type=text],
+input[type=tel] {
 	outline: none !important;
 	border-color: transparent !important;
 	-webkit-box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.1) !important;
@@ -140,7 +141,8 @@ input[type=text] {
 		    left: 15px;
 		    top: 27px;
 			}
-			input[type="text"] {
+			input[type="text"],
+			input[type="tel"] {
 				width: 230px;
 				@media all and (max-width: 768px) {
 					width: 100%;
