@@ -12,6 +12,7 @@
 	define( 'BASIC_TO',
 		[
 		   'dhawkmoon@mail.ru' => 'Михаил',
+			 'mosantenna.com@ya.ru' => 'Ваагн',
 		]
 	);
 
