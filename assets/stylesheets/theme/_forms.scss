@@ -68,6 +68,9 @@ input[type=tel] {
 		@media all and (max-width: 768px) {
 			left: 0;
 			width: 30%;
+			line-height: 1;
+			display: block; !important;
+			padding: 0 !important;
 		}
 	}
 	span {
