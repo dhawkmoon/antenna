@@ -6296,7 +6296,8 @@ input[type=tel] {
     box-shadow: none !important; }
     @media all and (max-width: 768px) {
       .qty input {
-        left: 0; } }
+        left: 0;
+        width: 30%; } }
   .qty span {
     display: block;
     width: 33%;
