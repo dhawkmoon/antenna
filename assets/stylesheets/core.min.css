@@ -6584,6 +6584,9 @@ input[type=tel] {
   margin: auto;
   z-index: 9090;
   overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 0.15s;
