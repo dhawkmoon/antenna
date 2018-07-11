@@ -6584,9 +6584,6 @@ input[type=tel] {
   margin: auto;
   z-index: 9090;
   overflow: auto;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 0.15s;
@@ -6610,6 +6607,7 @@ input[type=tel] {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
+    overflow: hidden;
     height: auto;
     min-height: 150px;
     padding: 40px;
