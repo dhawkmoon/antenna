@@ -132,10 +132,10 @@
 			},
 			onFormSuccess: function( f )
 			{
-	
+
     			 startLoading( $(f) )
     			 send( $(f), 'detailed' )
-		 
+
 			},
 		}
 	]

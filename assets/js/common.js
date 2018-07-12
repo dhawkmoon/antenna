@@ -14,7 +14,8 @@ $(document).ready( function(){
 			 navigation: {
 				 nextEl: '#testimonials-button-next',
 				 prevEl: '#testimonials-button-prev',
-			 }
+			 },
+			 loop: true,
 		 })
 	 }
 	 else {
@@ -24,7 +25,8 @@ $(document).ready( function(){
 			 navigation: {
 				 nextEl: '#testimonials-button-next',
 				 prevEl: '#testimonials-button-prev',
-			 }
+			 },
+			 loop: true,
 		 })
 	 }
 	 /*
