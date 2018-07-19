@@ -142,5 +142,11 @@ $(document).ready( function(){
     $(this).val( $(this).val().replace( /^\+7 \(8/, '+7 (' ) )
 } )
 
+    /*
+     * Current Year in footer copyright
+     */
+
+     var y = new Date().getFullYear()
+     $('.year').text( y )
 
 } );
