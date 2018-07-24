@@ -16,7 +16,7 @@ header {
 			&:not(:first-child) {
 				margin-left: 66px;
 				@media all and (max-width: 768px) {
-					margin-left: 38px;
+					margin-left: 45px;
 				}
 			}
 			&:not(:last-child)::after {
