@@ -70,13 +70,13 @@ header {
 		content: '';
 		display: block;
 		position: absolute;
-		width: 183px;
+		width: 150px;
 		top: 34px;
-		right: -203px;
+		right: -173px;
 		border-top: 1px solid $brand-secondary;
 		@media all and (max-width: 1200px) {
-			width: 60px;
-			right: -78px;
+			width: 30px;
+			right: -49px;
 		}
 		@media all and (max-width: 768px) {
 			display: none;
