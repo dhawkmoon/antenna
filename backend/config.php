@@ -6,7 +6,7 @@
 	define( 'BASIC_CONTACT_PHONE', '+7 (495) 142-17-34' );
 
     //Адрес отправителя (отправитель должен быть в домене @job.line4life.ru)
-	define( 'BASIC_FROM', 'info@antenna.ru' );
+	define( 'BASIC_FROM', 'info@antennavdom.com' );
 
     //Список получателей - ассоциативный массив, где ключ - адрес почты, значение - имя получателя
 	define( 'BASIC_TO',
