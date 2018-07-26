@@ -235,3 +235,22 @@
 			@include flash(.3s);
 		}
 }
+
+.s1-man {
+	position: absolute;
+	@include glyph(url('../img/s1-man.png'));
+	width: 386px;
+	height: 555px;
+	width: 386px;
+  left: 35px;
+  top: -85px;
+	@media all and (max-width: 1024px) {
+		left: -30px;
+	}
+	@media all and (max-width: 768px) {
+		display: none;
+	}
+	&-holder {
+		position: relative;
+	}
+}
