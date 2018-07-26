@@ -192,7 +192,7 @@
 			*/
 		 function startLoading( $form )
 		 {
-			 $form.addClass('loading');
+			 $form.addClass('loading')
 			 $form.find('button').prop( 'disabled', true )
 		 }
 		 /*
@@ -236,17 +236,17 @@
 					data: data,
 					context: $form,
 					processData: false,
-  	                contentType: false,
+  	      contentType: false,
 					success: function( response ) {
 						//printSuccess( $(this), response )
 						setTimeout( printSuccess, 2000, $(this), response )
 						setTimeout( clearForm, 2000, $(this) )
-						// dataLayer.push({
-			 			// 	'event' : 'formsend',
-			 			// 	'eventCategory' : 'form',
-			 			// 	'eventAction' : 'send-btn',
-			 			// 	'eventLabel' : $(this).attr('id')
-		 				// });
+						dataLayer.push({
+			 				'event' : 'formsend',
+			 				'eventCategory' : 'form',
+			 				'eventAction' : 'send-btn',
+			 				'eventLabel' : $(this).attr('id'),
+		 				});
 					},
 					error: function( response ) {
 						//console.log(response)
@@ -268,3 +268,27 @@
 		 $('body').on( 'overlayremoved', function(){
 			 $('.message').remove()
 		 } )
+
+
+		 /*
+		  * Checkbox dataLayer events
+			*/
+
+			$('input[type=checkbox]').on( 'change', function(){
+				if( $(this).prop( 'checked' ) == true ) {
+					dataLayer.push({
+						'event' : 'checkboxEvent',
+						'eventCategory' : 'checkbox',
+						'eventAction' : 'setTrue',
+						'eventLabel' : $(this).attr('id'),
+					});
+				}
+				else {
+					dataLayer.push({
+						'event' : 'checkboxEvent',
+						'eventCategory' : 'checkbox',
+						'eventAction' : 'setFalse',
+						'eventLabel' : $(this).attr('id'),
+					});
+				}
+			} )
