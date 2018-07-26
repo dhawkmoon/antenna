@@ -13,6 +13,8 @@
 		[
 		   'dhawkmoon@mail.ru' => 'Михаил',
 			 'mosantenna.com@ya.ru' => 'Ваагн',
+			 'info@antennavdom.com' => 'Ваагн',
+			 'lihaletov.dm@gmail.com' => 'Дмитрий',
 		]
 	);
 
