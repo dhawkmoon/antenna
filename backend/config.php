@@ -3,15 +3,15 @@
 	define( 'BASE_PATH', '/backend' );
 
     //Контактный телефон
-	define( 'BASIC_CONTACT_PHONE', '+7 (495) 142-17-34' );
+	define( 'BASIC_CONTACT_PHONE', '8 800 511-01-81' );
 
-    //Адрес отправителя (отправитель должен быть в домене @job.line4life.ru)
+    //Адрес отправителя (отправитель должен быть в домене @antennavdom.ru)
 	define( 'BASIC_FROM', 'info@antennavdom.com' );
 
     //Список получателей - ассоциативный массив, где ключ - адрес почты, значение - имя получателя
 	define( 'BASIC_TO',
 		[
-		   'dhawkmoon@mail.ru' => 'Михаил',
+		   //'dhawkmoon@mail.ru' => 'Михаил',
 			 'mosantenna.com@ya.ru' => 'Ваагн',
 			 'info@antennavdom.com' => 'Ваагн',
 			 'lihaletov.dm@gmail.com' => 'Дмитрий',
@@ -63,11 +63,13 @@
 			's1-form-phone'  =>  FIELD_PHONE,
 			's1-form-mobile-phone'  =>  FIELD_PHONE,
 			's3-form-phone'  =>  FIELD_PHONE,
+			's3-form-mobile-phone' => FIELD_PHONE,
 			's5-form-phone'  =>  FIELD_PHONE,
 			's8-form-phone'  =>  FIELD_PHONE,
 			's1-form-check'  =>  FIELD_WARRANTY,
 			's1-form-mobile-check'  =>  FIELD_WARRANTY,
 			's3-form-check'  =>  FIELD_WARRANTY,
+			's3-form-mobile-check' => FIELD_WARRANTY,
 			's5-form-check'  =>  FIELD_WARRANTY,
 			's8-form-check'  =>  FIELD_WARRANTY,
 			'modal-form-phone'  =>  FIELD_PHONE,

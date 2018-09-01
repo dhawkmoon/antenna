@@ -15,7 +15,7 @@
 				$fields = validateFormFields( FORM_FIELDS );
 
 				if( isBadPhone( $fields['phone'] ) ) { //filter BAD and SCUM phones
-            return ['code'=> 403, 'body' => 'К сожалению, введенный Вами номер телефона содержит неправильный код* оператора.<span style="color:black !important;font-size: 13px; display: block !important; border-top: 1px dashed #3f7592; padding-top: 5px; margin-top: 5px;">* Если Ваш телефон содержит действующий код оператора, но Вы видите данное сообщение, свяжитесь с нами по телефону ' . BASIC_CONTACT_PHONE . '</span>.'];
+            return ['code'=> 403, 'body' => 'К сожалению, введенный Вами номер телефона содержит неправильный код* оператора.<span style="color:black !important;font-size: 13px; display: block !important; border-top: 1px dashed #3f7592; padding-top: 5px; margin-top: 5px;">* Если Ваш телефон содержит действующий код оператора, но Вы видите данное сообщение, свяжитесь с нами по телефону <br />' . BASIC_CONTACT_PHONE . '.</span>'];
         }
 
 				if( count( $fields ) > 0 ) {

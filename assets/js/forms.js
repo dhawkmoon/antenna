@@ -109,6 +109,13 @@
 			},
 		},
 		{
+			id: 's3-form-mobile',
+			fields: {
+				's3-form-mobile-phone': phone,
+				's3-form-mobile-check': warranty,
+			},
+		},
+		{
 			id: 's5-form',
 			fields: {
 				's5-form-phone': phone,
@@ -179,7 +186,7 @@
 
 		 var onFormSuccess = function( f ) {
 			 startLoading( $(f) )
-			 send( $(f) )
+			 send( $(f), 'send' )
 		 }
 
 		 /*
@@ -210,17 +217,25 @@
 			 $f.append( '<span class="message message-error">'+t+'</span><span class="m-modal-overlay"></span>' )
 		 }
 		 /*
-		  * 04 Clear form
-			*/
+		  * 04.1 Clear form
+		  */
 		 function clearForm( $f )
 		 {
 			 $f.find('[disabled]').prop( 'disabled', false )
 			 $f.removeClass('loading')
+		
 		 }
+		 /*
+		  * 04.2
+		  */
+		  function dismissMessage()
+		  {
+		      $('.m-modal-overlay,.message').remove()
+		  }
 		 /*
 		  * 05 Sends data
 		  */
-		 function send( $form, action='send' )
+		 function send( $form, action )
 		 {
 			 //var data = $form.serialize()
 			 var data = new FormData( $form[0] )
@@ -241,6 +256,7 @@
 						//printSuccess( $(this), response )
 						setTimeout( printSuccess, 2000, $(this), response )
 						setTimeout( clearForm, 2000, $(this) )
+						setTimeout( dismissMessage, 6000 )
 						dataLayer.push({
 			 				'event' : 'formsend',
 			 				'eventCategory' : 'form',
@@ -252,6 +268,7 @@
 						//console.log(response)
 						setTimeout( printError, 2000, $(this), response.responseText )
 						setTimeout( clearForm, 2000, $(this) )
+						setTimeout( dismissMessage, 6000 )
 					},
 				})
 		 }
